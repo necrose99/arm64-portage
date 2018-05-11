@@ -1,0 +1,9 @@
+#/bin/bash
+
+wget get http://distfiles.gentoo.org/releases/arm/autobuilds/current-stage3-arm64/stage3-arm64-20161219.tar.bz2
+
+## aget is a nice at times replacement for wget 
+#$get http://distfiles.gentoo.org/releases/arm/autobuilds/current-stage3-arm64/stage3-arm64-20161219.tar.bz2
+#get="aget"
+#else 
+#get=wget 
