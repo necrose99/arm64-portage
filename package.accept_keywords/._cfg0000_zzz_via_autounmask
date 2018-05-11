@@ -1,0 +1,48 @@
+# required by =app-portage/ufed-0.92 (argument)
+=app-portage/ufed-0.92 **
+# required by sys-fs/aufs4 (argument)
+=sys-fs/aufs4-0_pre20170313 **
+# required by sys-fs/aufs4-0_pre20170313::gentoo
+# required by sys-fs/aufs4 (argument)
+=sys-fs/aufs-util-4.1_p20170130 **
+# required by sys-fs/aufs-util-4.1_p20170130::gentoo
+# required by sys-fs/aufs4-0_pre20170313::gentoo
+# required by sys-fs/aufs4 (argument)
+=sys-fs/aufs-headers-4.1_p20170130 **
+>=dev-lang/ocaml-4.04.1
+=dev-lang/ocaml-9999# required by app-admin/puppet-agent-1.10.0::gentoo
+# required by puppet-agent (argument)
+=sys-libs/readline-5.2_p14 **
+# required by aget (argument)
+=net-misc/aget-0.4.1-r1 **
+# required by sys-apps/systemd::gentoo (argument)
+=sys-apps/systemd-235 ~arm64
+# required by dev-util/nvidia-cuda-sdk-8.0.61::gentoo[examples]
+# required by dev-util/nvidia-cuda-sdk (argument)
+=media-libs/freeimage-3.15.4-r1 **
+# required by x11-drivers/nvidia-drivers-387.12::gentoo[acpi]
+# required by dev-util/nvidia-cuda-sdk-8.0.61::gentoo[examples]
+# required by dev-util/nvidia-cuda-sdk (argument)
+=sys-power/acpid-2.0.28 **
+# required by media-libs/freeimage-3.15.4-r1::gentoo[tiff]
+# required by dev-util/nvidia-cuda-sdk-8.0.61::gentoo[examples]
+# required by dev-util/nvidia-cuda-sdk (argument)
+=media-libs/ilmbase-2.2.0-r1 ~arm64
+# required by dev-util/valadoc (argument)
+=dev-util/valadoc-9999 **
+# required by dev-python/pyparsing (argument)
+=dev-python/pyparsing-2.2.0 ~arm64
+# required by dev-util/catalyst-9999::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/pydecomp-9999 **
+# required by =app-forensics/pdf-parser-0.6.7 (argument)
+=app-forensics/pdf-parser-0.6.7 **
+# required by x11-drivers/xf86-video-fbturbo-9999::mrueg
+# required by x11-drivers/xf86-video-fbturbo (argument)
+=x11-libs/libump-9999 **
+# required by x11-drivers/xf86-video-fbturbo (argument)
+=x11-drivers/xf86-video-fbturbo-9999 **
+# required by dev-util/electron-1.6.11-r1::gentoo
+# required by dev-util/electron (argument)
+=media-libs/libvpx-1.6.1 ~arm64

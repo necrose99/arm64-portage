@@ -1,0 +1,5 @@
+cross-aarch64-pc-mingw32/binutils -multilib
+cross-aarch64-pc-mingw32/gcc -multilib
+cross-aarch64-pc-mingw32/w32api -multilib
+cross-aarch64-pc-mingw32/mingw-runtime -multilib
+cross-aarch64-pc-mingw32/gdb -multilib

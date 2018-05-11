@@ -1,0 +1,5 @@
+cross-arm7hf-pc-mingw32/binutils cross-arm7hf-pc-mingw32/binutils.conf
+cross-arm7hf-pc-mingw32/gcc cross-arm7hf-pc-mingw32/gcc.conf
+cross-arm7hf-pc-mingw32/w32api cross-arm7hf-pc-mingw32/w32api.conf
+cross-arm7hf-pc-mingw32/mingw-runtime cross-arm7hf-pc-mingw32/mingw-runtime.conf
+cross-arm7hf-pc-mingw32/gdb cross-arm7hf-pc-mingw32/gdb.conf

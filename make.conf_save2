@@ -1,0 +1,85 @@
+# Simple make.conf for 64-bit Raspberry Pi 3
+
+CFLAGS="-march=armv8-a+crc -mtune=cortex-a53 -O2 -pipe"
+CXXFLAGS="${CFLAGS}"
+
+# for use when compiling locally
+MAKEOPTS="-j5 -l4"
+EMERGE_DEFAULT_OPTS="--jobs=5 --load-average=4"
+# for use with compiling with distcc only
+#MAKEOPTS="-j32 -l4"
+#EMERGE_DEFAULT_OPTS="--jobs=5 --load-average=4"
+
+# Only free software, please.
+ACCEPT_LICENSE="-* @FREE CC-Sampling-Plus-1.0" 
+
+# WARNING: Changing your CHOST is not something that should be done lightly.
+# Please consult https://wiki.gentoo.org/wiki/Changing_the_CHOST_variable before changing.
+CHOST="aarch64-unknown-linux-gnu"
+
+# Use the 'testing' branch - otherwise we'll have to keyword everything
+ACCEPT_KEYWORDS="~arm64"
+
+ACCEPT_LICENSE="*"
+
+# Additional USE flags in addition to those specified by the current profile.
+USE="bindist -mudflap -sanitize"
+USE="${USE} bluetooth egl gles1 gles2 lock thunar qt4 ffmpeg"
+USE="${USE} -gnome -kde"
+
+PORTDIR="/usr/portage"
+DISTDIR="${PORTDIR}/distfiles"
+PKGDIR="${PORTDIR}/packages"
+
+# per https://wiki.gentoo.org/wiki/Raspberry_Pi_VC4
+VIDEO_CARDS="fbdev vc4"
+INPUT_DEVICES="evdev synaptics"
+
+# Turn on logging - see http://gentoo-en.vfose.ru/wiki/Gentoo_maintenance.
+PORTAGE_ELOG_CLASSES="info warn error log qa"
+PORTAGE_ELOG_SYSTEM="save"
+# Logs go to /var/log/portage/elog by default - view them with elogviewer. 
+
+# This sets the language of build output to English.
+# Please keep this setting intact when reporting bugs.
+LC_MESSAGES=C
+
+# use (and verify) signed package snapshots, and build binary packages
+# as a byproduct of each emerge (these are useful backups)
+FEATURES="webrsync-gpg buildpkg distcc distcc-pump icecream getbinpkg parallel-fetch protect-owned compressdebug splitdebug"
+
+# uncomment to disribute emerges, where possible, using distcc
+#FEATURES="${FEATURES} distcc distcc-pump"
+
+# uncomment to use binary packages from PORTAGE_BINHOST, where
+# available (and build normally, where not)
+#FEATURES="${FEATURES} getbinpkg"
+PORTAGE_BINHOST="https://isshoni.org/pi64"
+
+PORTAGE_GPG_DIR="/etc/portage/gpg"
+
+GENTOO_MIRRORS="http://gentoo.osuosl.org/ http://trumpetti.atm.tut.fi/gentoo/"
+
+LINGUAS="en en_US af ar az bg bn br bs ca cs cy da de el en_GB eo es et eu fa fi fr fy ga gl he hi hr hu is it ja kk km ko lt lv mk mn ms nb nds nl nn pa pl pt pt_BR ro ru rw se sk sl sr sr@Latn ss sv ta tg tr uk uz vi zh_CN zh_TW es_AR es_ES fy_NL ga_IE gu gu_IN nb_NO nn_NO pt_PT sv_SE zh"
+L10N="en af ar az bg bn br bs ca cs cy da de el en-GB eo es et eu fa fi fr fy ga gl he hi hr hu is it ja kk km ko lt lv mk mn ms nb nds nl nn pa pl pt pt-BR ro ru rw se sk sl sr sr-Latn ss sv ta tg tr uk uz vi zh-CN zh-TW es-AR es-ES fy ga gu nb nn pt-PT sv zh"
+
+## USE ##
+SAB_BAD="-kdeprefix -arts -qt3 -beagle -gnome -evo -mono -eds -apm -oss -branding -esd"
+SAB_MEDIA="musicbrainz sdl pulseaudio wmf fame cdr dvi mp3rtp xine cddb alsa dvb dvd bluray network dvdread ipod audiofile artswrappersuid dvdr jack dri cdda libav mjpeg mmx joystick xvmc cpudetection v4l v4l2"
+SAB_CODECS="x264 x265 gsm lame opus dv mp3 stream live openal theora ogg a52 win32codecs matroska xvid flac ffmpeg aac speex real dts musepack"
+SAB_SYSTEM="cjk unicode gnutls nptl gcj udev -systemd logind -consolekit kerberos acl dbus bash-completion lzo rar policykit xcb bzip2 bidi wifi lm_sensors acpi usb pcmcia bluetooth irda ieee1394 perl python"
+SAB_FILESYS="fat hfs jfs xfs ntfs reiserfs sysfs inotify lzma lz4 lzo"
+SAB_PRINT="cups ppds foomatic-db gimpprint freetype xprint scanner"
+SAB_XSYS="cairo X opengl png gif gtk qt4 qt5 qt3support xpm tiff xinerama aiglx svg gphoto2 dga lcd openexr wayland multitarget" 
+SAB_DESKTOP="kdehiddenvisibility gmp libnotify rdesktop pda zeroconf kdeenablefinal visualization avahi startup-notification accessibility"
+SAB_BROWSER="nsplugin firefox mozdevelop xulrunner"
+SAB_COMMS="jabber msn yahoo icq irc aim rss slp mail imap http2 tk sqlite"
+SAB_TEST="minipentoo upnp kerberos ldap odbc"
+USE="${SAB_BAD} ${SAB_MEDIA} ${SAB_CODECS} ${SAB_SYSTEM} ${SAB_FILESYS} ${SAB_PRINT} ${SAB_XSYS} ${SAB_DESKTOP} ${SAB_BROWSER} ${SAB_COMMS} {SAB_TEST}"	
+
+## OFFICE ##
+LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer pdfimport wiki-publisher"
+
+## QEMU ##
+
+
