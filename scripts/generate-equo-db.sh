@@ -12,7 +12,7 @@ cp /etc/portage/scripts/equo-arm64.sql /var/lib/entropy/client/database/arm64/eq
 
 cd /var/lib/entropy/client/database/arm64
 
-cat /equo.sql | sqlite3 equo.db
+cat /var/lib/entropy/client/database/arm64/equo.sql | sqlite3 equo.db
 
 
 # /etc/portage/scripts/  for experamental and util reasons. keep... on localhost .. 
