@@ -1,0 +1,7 @@
+cross-i686-pc-linux-gnu/binutils x86 -arm64 -~arm64
+cross-i686-pc-linux-gnu/gcc x86 -arm64 -~arm64
+cross-i686-pc-linux-gnu/linux-headers x86 -arm64 -~arm64
+cross-i686-pc-linux-gnu/glibc x86 -arm64 -~arm64
+cross-i686-pc-linux-gnu/gdb x86 ~x86 -arm64 -~arm64
+# required by dev-java/oracle-jre-bin (argument)
+=dev-java/oracle-jre-bin-9.0.4-r1 **

@@ -1,0 +1,5 @@
+cross-armv7a-hardfloat-pc-mingw32/binutils cross-armv7a-hardfloat-pc-mingw32/binutils.conf
+cross-armv7a-hardfloat-pc-mingw32/gcc cross-armv7a-hardfloat-pc-mingw32/gcc.conf
+cross-armv7a-hardfloat-pc-mingw32/w32api cross-armv7a-hardfloat-pc-mingw32/w32api.conf
+cross-armv7a-hardfloat-pc-mingw32/mingw-runtime cross-armv7a-hardfloat-pc-mingw32/mingw-runtime.conf
+cross-armv7a-hardfloat-pc-mingw32/gdb cross-armv7a-hardfloat-pc-mingw32/gdb.conf

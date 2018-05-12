@@ -1,0 +1,5 @@
+cross-aarch64-pc-mingw32/binutils arm64
+cross-aarch64-pc-mingw32/gcc arm64
+cross-aarch64-pc-mingw32/w32api arm64
+cross-aarch64-pc-mingw32/mingw-runtime arm64
+cross-aarch64-pc-mingw32/gdb arm64 ~arm64

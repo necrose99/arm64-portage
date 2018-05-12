@@ -1,0 +1,18 @@
+cross-x86_64-pc-mingw32/binutils amd64 -arm64 -~arm64
+cross-x86_64-pc-mingw32/gcc amd64 -arm64 -~arm64
+cross-x86_64-pc-mingw32/mingw64-runtime amd64 -arm64 -~arm64
+cross-x86_64-pc-mingw32/gdb amd64 ~amd64 -arm64 -~arm64
+# required by golint (argument)
+=dev-go/golint-0_pre20161114 **
+# required by dev-go/golint-0_pre20161114::gentoo
+# required by golint (argument)
+=dev-go/go-tools-9999 **
+# required by app-portage/emerge-delta-webrsync (argument)
+=app-portage/emerge-delta-webrsync-3.7.3-r1 **
+# required by app-portage/emerge-delta-webrsync-3.7.3-r1::gentoo
+# required by app-portage/emerge-delta-webrsync (argument)
+=dev-util/diffball-1.0.1 **
+# required by cargo-ebuild (argument)
+=app-portage/cargo-ebuild-0.1.5 **
+# required by gox (argument)
+=dev-go/gox-0.4.0 **
