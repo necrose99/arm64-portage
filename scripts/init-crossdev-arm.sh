@@ -2,7 +2,7 @@
 ## https://github.com/sakaki-/gentoo-on-rpi3-64bit/wiki/Set-Up-Your-Gentoo-PC-for-Cross-Compilation-with-crossdev
 # and a few mods as crossdev may bork shit drop symlnkys in other repos... 
 # @crossdev --clean
- 
+ ## useful also in revese ie i686 amd64 ming would be a joy for metasploit etc.. 
  
 ## RPI/ROCK64 these are not required since runing on arm64 locally. 
 ##echo "INIT Arm/Arm64-crossdev targets."
