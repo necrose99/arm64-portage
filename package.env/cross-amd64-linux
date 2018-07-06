@@ -1,0 +1,4 @@
+cross-amd64-linux/binutils cross-amd64-linux/binutils.conf
+cross-amd64-linux/gcc cross-amd64-linux/gcc.conf
+cross-amd64-linux/linux-headers cross-amd64-linux/linux-headers.conf
+cross-amd64-linux/gdb cross-amd64-linux/gdb.conf

@@ -1,0 +1,32 @@
+# required by app-admin/equo-307::sabayon
+# required by equo (argument)
+>=sys-apps/file-5.30 python
+# required by net-wireless/blue_hydra-9999::pentoo
+# required by pentoo/pentoo-bluetooth-2017.1::pentoo
+# required by pentoo-bluetooth (argument)
+>=net-wireless/bluez-5.45 test-programs
+# required by sys-apps/systemd-235::sabayon-distro
+# required by sys-apps/gentoo-systemd-integration-7::gentoo
+>=sys-apps/dbus-1.10.24 systemd
+# required by dev-util/electron-1.6.11-r1::gentoo
+# required by dev-util/electron (argument)
+>=media-libs/libvpx-1.6.1 svc
+# required by net-misc/networkmanager-1.10.6::gentoo[connection-sharing]
+# required by @selected
+# required by @world (argument)
+>=net-dns/dnsmasq-2.79 dbus
+# required by sys-auth/polkit-0.113-r4::gentoo[-systemd]
+# required by sys-fs/udisks-2.7.6::gentoo
+# required by gnome-base/gvfs-1.32.2::gentoo[udisks]
+# required by gnome-base/libgnome-2.32.1-r1::gentoo
+# required by gnome-base/libgnomeui-2.24.5-r1::gentoo
+# required by dev-perl/gnome2-perl-1.46.0::gentoo
+# required by dev-perl/gnome2-perl (argument)
+>=sys-auth/consolekit-1.2.1 policykit
+# required by net-wireless/blue_hydra-1.9.10::pentoo
+# required by pentoo/pentoo-bluetooth-2018.1::pentoo
+# required by pentoo/pentoo-bluetooth (argument)
+>=net-wireless/bluez-5.49-r1 deprecated
+# required by media-tv/kodi-9999::gentoo[-libressl]
+# required by kodi (argument)
+>=media-video/ffmpeg-9999 openssl

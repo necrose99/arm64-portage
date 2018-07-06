@@ -1,0 +1,1 @@
+cross-arm7hf-mingw32/gcc -fortran -vtv -sanitize -pie -hardened

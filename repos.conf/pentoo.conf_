@@ -1,0 +1,13 @@
+#dev-vcs/git  only dep other than fresh portage ... so thus fewer.. 
+###so usefull if on pure gentoo box for bootstraping/Layman is dammaged or ie ARM64 Gentoo system to do builds.
+## or fresh Gentoo-docker.. or chroot in docker ... ie debian-arm64 /gentoo-arm64-chroot 
+#######################################################################################
+
+[pentoo]
+
+location = /var/lib/layman/pentoo
+
+sync-type = git
+sync-uri = https://github.com/pentoo/pentoo-overlay.git
+priority = 100
+auto-sync = yes

@@ -1,0 +1,4 @@
+cross--armv7ahf/binutils cross--armv7ahf/binutils.conf
+cross--armv7ahf/gcc cross--armv7ahf/gcc.conf
+cross--armv7ahf/linux-headers cross--armv7ahf/linux-headers.conf
+cross--armv7ahf/gdb cross--armv7ahf/gdb.conf

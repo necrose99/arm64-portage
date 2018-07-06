@@ -1,0 +1,51 @@
+# required by dev-java/gcj-jdk-5.4.0-r1::gentoo
+# required by dev-java/gcj-jdk (argument)
+# /usr/portage/profiles/releases/17.0/package.mask:
+# Andreas K. Huettel <dilfridge@gentoo.org> (1 Dec 2017)
+# The following packages require GCC 5 or earlier and are therefore
+# masked in the 17.0 profiles.
+=dev-java/ecj-gcj-4.4.2
+# required by dev-java/gcj-jdk (argument)
+# /usr/portage/profiles/releases/17.0/package.mask:
+# Andreas K. Huettel <dilfridge@gentoo.org> (1 Dec 2017)
+# The following packages require GCC 5 or earlier and are therefore
+# masked in the 17.0 profiles.
+=dev-java/gcj-jdk-5.4.0-r1
+# required by dev-java/gcj-jdk-5.4.0-r1::gentoo
+# required by dev-java/gcj-jdk (argument)
+# /usr/portage/profiles/releases/17.0/package.mask:
+# Andreas K. Huettel <dilfridge@gentoo.org> (27 May 2017)
+# In the 17.0 profiles we assume that our system compiler uses C++14
+# or later as default language setting. This means it has to be at
+# least GCC 6. If you need an older compiler for specific purposes,
+# feel free to unmask it, however, using it for normal emerging of
+# packages is neither recommended nor supported in any way.
+=sys-devel/gcc-5.4.0-r4
+# required by dev-util/mingw-runtime (argument)
+# /usr/portage/profiles/package.mask:
+# Diego E. Pettenò <flameeyes@gentoo.org> (03 Jan 2009)
+# These packages are not supposed to be merged directly, instead
+# please use sys-devel/crossdev to install them.
+=dev-util/mingw-runtime-4.0.3.1
+# required by media-video/totem-3.24.0::gentoo
+# required by gnome-base/gnome-core-apps-3.24.2::gentoo
+# required by gnome-base/gnome-3.24.2::gentoo
+# required by gnome-3.24.2.ebuild (argument)
+# /etc/portage/package.mask/appstream-glib:
+# 0.6.x versions don't compile; issue with gperf
+=dev-libs/appstream-glib-0.6.13
+# required by uclibc (argument)
+# /usr/portage/profiles/package.mask:
+# Anthony G. Basile <blueness@gentoo.org> (25 Feb 2018)
+# Upstream has been dead since 2012.  Migrate to uclibc-ng.
+# See https://wiki.gentoo.org/wiki/Project:Hardened_uClibc
+=sys-libs/uclibc-9999
+# required by net-misc/freerdp-9999::gentoo[-libav,ffmpeg]
+# required by net-misc/remmina-1.2.30.1::gentoo[rdp]
+# required by @selected
+# required by @world (argument)
+# /usr/portage/profiles/package.mask:
+# Alexis Ballier <aballier@gentoo.org> (21 Apr 2018)
+# Needs porting of revdeps
+# See: https://bugs.gentoo.org/653678
+=media-video/ffmpeg-9999

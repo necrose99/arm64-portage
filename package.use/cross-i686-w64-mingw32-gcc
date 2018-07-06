@@ -1,0 +1,3 @@
+cross-i686-w64-mingw32/gcc -fortran -vtv -sanitize
+cross-i686-w64-mingw32/gcc -fortran -vtv -sanitize
+cross-i686-w64-mingw32/gcc -fortran -vtv -sanitize
