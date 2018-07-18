@@ -1,0 +1,10 @@
+>dev-qt/qtcore-5.11.1:5/5.11::gentoo
+dev-qt/qtcore-5.11.1:5/5.11::gentoo
+dev-qt/qttest-5.11.1:5/5.11::gentoo 
+ dev-qt/qtxmlpatterns-5.11.1:5/5.11::gentoo
+ dev-qt/qtgui-5.11.1:5/5.11::gentoo
+ dev-qt/qtxmlpatterns-5.11.1:5/5.11::gentoo,
+ dev-qt/qtwebengine-5.11.1:5/5.11::gentoo
+ dev-qt/qtdeclarative-5.11.1:5/5.11::gentoo
+ dev-qt/qtscript-5.11.1:5/5.11::gentoo
+ dev-qt/qtgui-5.11.1:5/5.11::gentoo
