@@ -1471,27 +1471,5 @@
 =net-firewall/shorewall-5.2.0.4 **
 # required by net-firewall/fwbuilder (argument)
 =net-firewall/fwbuilder-5.3.7 **
-# required by libump (argument)
-=x11-libs/libump-3.0 **
-# required by dev-libs/opencl-clang-8.0.0::gentoo
-# required by dev-libs/opencl-clang (argument)
-=dev-util/spirv-llvm-translator-8.0.0.1-r1 **
-# required by dev-libs/opencl-clang (argument)
-=dev-libs/opencl-clang-8.0.0 **
-# required by dev-python/rply (argument)
-=dev-python/rply-0.7.6 **
-# required by dev-ruby/power_assert-1.1.4::gentoo[ruby_targets_ruby26]
-# required by dev-lang/ruby-2.5.5::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-lang/ruby-2.6.3 ~arm64
-# required by dev-ruby/did_you_mean-1.2.1::gentoo[ruby_targets_ruby25]
-=dev-lang/ruby-2.5.5 ~arm64
-# required by virtual/ooo (argument)
-=virtual/ooo-0 **
-# required by app-portage/unsymlink-lib (argument)
-=app-portage/unsymlink-lib-9999 **
-# required by app-backup/fsarchiver (argument)
-=app-backup/fsarchiver-0.8.5 **
-# required by net-analyzer/cacti-spine (argument)
-=net-analyzer/cacti-spine-1.2.2-r1 **
+# required by virtual/opencl (argument)
+=virtual/opencl-0-r6 **

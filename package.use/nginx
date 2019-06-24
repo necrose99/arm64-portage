@@ -32,16 +32,17 @@ www-servers/nginx nginx_modules_http_upstream_ip_hash nginx_modules_http_userid 
 www-servers/nginx nginx_modules_http_ajp nginx_modules_http_auth_pam nginx_modules_http_auth_request nginx_modules_http_dav_ext 
 #
 #
-www-servers/nginx -nginx_modules_http_degradation -nginx_modules_http_echo nginx_modules_http_fancyindex nginx_modules_http_gunzip 
+www-servers/nginx nginx_modules_http_degradation nginx_modules_http_echo nginx_modules_http_fancyindex nginx_modules_http_gunzip 
 #
 www-servers/nginx nginx_modules_http_image_filter nginx_modules_http_limit_conn nginx_modules_http_lua nginx_modules_http_metrics 
 www-servers/nginx nginx_modules_http_mogilefs nginx_modules_http_mp4 nginx_modules_http_naxsi nginx_modules_http_perl 
-www-servers/nginx  nginx_modules_http_push_stream -nginx_modules_http_random_index 
+www-servers/nginx  nginx_modules_http_push_stream nginx_modules_http_random_index 
 #
-www-servers/nginx  -nginx_modules_http_slowfs_cache -nginx_modules_http_sticky nginx_modules_http_upstream_check
+www-servers/nginx  nginx_modules_http_slowfs_cache nginx_modules_http_sticky nginx_modules_http_upstream_check
 www-servers/nginx -nginx_modules_http_security  # adds deps for apache2 sadly
+www-servers/nginx  geoip2 imap smtp nginx_modules_geoip2 nginx_modules_javascript nginx_modules_lua nginx_modules_brotli
 
-
+www-servers/nginx nginx_modules_spdy  
 # emerge -av www-servers/nginx  USE="aio http http-cache http2 ipv6 libatomic pcre ssl -debug -libressl (-luajit) (-pcre-jit) (-rtmp) (-selinux) -threads (-vim-syntax)
 
 #NGINX_MODULES_HTTP="access addition auth_basic auth_pam auth_request autoindex browser cache_purge charset dav dav_ext empty_gif 
@@ -49,10 +50,11 @@ www-servers/nginx -nginx_modules_http_security  # adds deps for apache2 sadly
 #grpc gunzip gzip gzip_static headers_more image_filter limit_conn limit_req map memcached metrics mirror mogilefs mp4 perl proxy realip referer rewrite scgi secure_link split_clients ssi stub_status sub upload_progress upstream_check 
 #upstream_hash upstream_ip_hash upstream_keepalive upstream_least_conn upstream_zone userid uwsgi xslt -auth_ldap 
 #-brotli -degradation -echo (-geoip2) -javascript (-lua) -memc -naxsi -push_stream -random_index -security -slice -slowfs_cache 
-#-spdy -sticky -vhost_traffic_status" NGINX_MODULES_MAIL="-imap -pop3 -smtp" 
+#-spdy -sticky -vhost_traffic_status" 
+NGINX_MODULES_MAIL="imap -pop3 smtp" 
 
 ##
-#NGINX_MODULES_STREAM="-access -geo -geoip (-geoip2) 
+NGINX_MODULES_STREAM="access -geo -geoip geoip2 
 #-javascript -limit_conn -map -realip -return -split_clients -ssl_preread -upstream_hash -upstream_least_conn -upstream_zone"
 # 
 # NGINX_MODULES_MAIL="-imap -pop3 -smtp"

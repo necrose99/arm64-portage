@@ -1493,5 +1493,8 @@
 =app-portage/unsymlink-lib-9999 **
 # required by app-backup/fsarchiver (argument)
 =app-backup/fsarchiver-0.8.5 **
-# required by net-analyzer/cacti-spine (argument)
-=net-analyzer/cacti-spine-1.2.2-r1 **
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-libs/openssl-1.1.0k ~arm64
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=sys-boot/mokutil-0.3.0_p20170404 **

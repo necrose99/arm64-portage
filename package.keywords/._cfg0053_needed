@@ -1491,7 +1491,16 @@
 =virtual/ooo-0 **
 # required by app-portage/unsymlink-lib (argument)
 =app-portage/unsymlink-lib-9999 **
+# required by dev-perl/Net-SSLeay-1.850.0::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-lang/perl-5.30.0 ~arm64
+# required by sys-block/open-isns-0.99::gentoo
+# required by sys-block/open-iscsi-2.0.877::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-libs/openssl-1.1.0k ~arm64
+# required by net-analyzer/testssl (argument)
+=net-analyzer/testssl-2.9.5_p7 **
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=sys-boot/mokutil-0.3.0_p20170404 **
 # required by app-backup/fsarchiver (argument)
 =app-backup/fsarchiver-0.8.5 **
-# required by net-analyzer/cacti-spine (argument)
-=net-analyzer/cacti-spine-1.2.2-r1 **
