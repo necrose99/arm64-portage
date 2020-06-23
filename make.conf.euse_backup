@@ -1,0 +1,158 @@
+# These settings were set by the catalyst build script that automatically
+# built this stage.
+# Please consult /usr/share/portage/config/make.conf.example for a more
+# detailed example.
+
+## https://github.com/necrose99/arm64-portage/blob/master/make.conf.production
+# some of my greatest hits... granted i need to cleave much in this use flags repo.
+COMMON_FLAGS="-O2 -pipe -march=armv8-a+crc+crypto -mcpu=cortex-a72.cortex-a53"
+CFLAGS="${COMMON_FLAGS} ${GRAPHITE}"
+GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block  -fgraphite-identity  -floop-parallelize-all"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+# WARNING: Changing your CHOST is not something that should be done lightly.
+# Please consult https://wiki.gentoo.org/wiki/Changing_the_CHOST_variable before changing.
+CHOST="aarch64-unknown-linux-gnu"
+#aarch64-cortex_a53-linux-gnu
+
+# NOTE: This stage was built with the bindist Use flag enabled
+# former PORTDIR="/usr/portage"
+
+PORTDIR="/var/db/repos/gentoo"
+DISTDIR=/var/gentoo/distfiles
+PKGDIR="/packages"
+
+# This sets the language of build output to English.
+# Please keep this setting intact when reporting bugs.
+LC_MESSAGES=C
+FEATURES="${FEATURES} getbinpkg ${FEATURES_2} ${FEATURES_3}"
+FEATURES_2="buildpkg distcc  parallel-fetch usepkg protect-owned compressdebug splitdebug  parallel-install"
+#binpkg-multi-instance useful for local rebuilds with differing flags but some hosts no like xpaks ,,
+#FEATURES_3="binpkg-multi-instance"
+
+PORTAGE_BINHOST="https://isshoni.org/pi64pie/
+https://raw.githubusercontent.com/necrose99/gentoo-binhost/aarch64-coretexa53-linux-gnu/
+https://raw.githubusercontent.com/spreequalle/gentoo-binhost/aarch64-coretexa53-linux-gnu/"
+
+GRUB_PLATFORMS="arm  arm64"
+ACCEPT_LICENSE="*"
+ACCEPT_KEYWORDS="~arm64 arm64"
+
+#GRAPHITE stuff"
+GRAPHITE="-floop-interchange -ftree-loop-distribution  -floop-block -floop-parallelize-all -fgraphite-identity"
+# -ftree-vectorize ${GRAPHITE}"
+
+## llvm  add arm64 server targets ,  amd /nvidia also [cavium thunderx2 servers use nvidia also can run nvidia gpu/tesla]
+LLVM_TARGETS="AArch64 BPF AMDGPU ARM  X86  NVPTX neon amd64 RISCV Mips WebAssembly RISCV"  #NVPTX add nivida
+#
+#know llvm targets,
+# LLVM_TARGETS="(AArch64) AMDGPU* ARM* BPF NVPTX* X86* -Hexagon -Lanai -MSP430 -Mips -PowerPC -RISCV% -Sparc -SystemZ -WebAssembly% -XCore
+
+# for use when compiling locally
+MAKEOPTS="-j5 -l4"
+EMERGE_DEFAULT_OPTS="--jobs=5 --load-average=4 --with-bdeps=y --keep-going=y --color=y --binpkg-respect-use=y --autounmask-continue=y  --binpkg-changed-deps=y"
+# for use with compiling with distcc only
+#MAKEOPTS="-j32 -l4"
+#EMERGE_DEFAULT_OPTS="--jobs=5 --load-average=4"
+#EMERGE_DEFAULT_OPTS="--with-bdeps=y --keep-going=y" --autounmask-continue y  --binpkg-changed-deps y
+
+VIDEO_CARDS="nouveau fglrx nvidia panfrost vc4 iris freedreno intel vivante radeon lima"
+
+#PORTAGE_GPG_DIR="/etc/portage/gpg"
+
+LINGUAS="be fo hy la no  en en_US af ar az bg bn br bs ca cs cy da de el en_GB eo es et eu fa fi fr fy ga gl he hi hr hu is it ja kk km ko lt lv mk mn ms nb nds nl nn pa pl pt pt_BR ro ru rw se sk sl sr sr@Latn ss sv ta tg tr uk uz vi zh_CN zh_TW es_AR es_ES fy_NL ga_IE gu gu_IN nb_NO nn_NO pt_PT sv_SE zh"
+L10N="be fo hy la no  en af ar az bg bn br bs ca cs cy da de el en-GB eo es et eu fa fi fr fy ga gl he hi hr hu is it ja kk km ko lt lv mk mn ms nb nds nl nn pa pl pt pt-BR ro ru rw se sk sl sr sr-Latn ss sv ta tg tr uk uz vi zh-CN zh-TW es-AR es-ES fy ga gu nb nn pt-PT sv zh  am es-419 fil id kn ml mr sw te th "
+### test langs
+
+
+## USE ##
+SAB_BAD="-kdeprefix -arts -qt3 -beagle -gnome -evo -mono -eds -apm -oss -branding -esd"
+SAB_MEDIA="musicbrainz sdl pulseaudio wmf fame cdr dvi mp3rtp xine cddb alsa dvb dvd bluray network dvdread ipod audiofile artswrappersuid dvdr jack dri cdda libav mjpeg mmx joystick xvmc cpudetection v4l v4l2 wavpack vpx vdpau svg"
+SAB_CODECS="x264 x265 gsm lame opus dv mp3 stream live openal theora ogg a52 win32codecs matroska xvid flac ffmpeg aac speex real dts musepack"
+SAB_SYSTEM="cjk unicode gnutls nptl gcj udev systemd logind -consolekit kerberos acl dbus bash-completion lzo rar policykit xcb bzip2 bidi wifi lm_sensors acpi usb pcmcia bluetooth irda ieee1394 perl python numa"
+SAB_FILESYS="fat hfs jfs xfs ntfs reiserfs sysfs inotify lzma lz4 lzo"
+SAB_PRINT="cups ppds foomatic-db gimpprint freetype xprint scanner"
+SAB_XSYS="cairo X opengl png gif gtk qt4 qt5 qt3support xpm tiff xinerama aiglx svg gphoto2 dga lcd openexr wayland multitarget"
+SAB_DESKTOP="kdehiddenvisibility gmp libnotify rdesktop pda zeroconf kdeenablefinal visualization avahi startup-notification accessibility"
+SAB_BROWSER="nsplugin firefox mozdevelop xulrunner"
+SAB_COMMS="jabber msn yahoo icq irc aim rss slp mail imap http2 tk sqlite sctp bluetooth"
+SAB_TEST="minipentoo upnp kerberos ldap odbc gold ocaml neon equalizer egl wavepak vpx schroedinger twolame cdio armvfp cdio vdpau vaapi d3d9 gles1 openmax tools icu sctp
+sha3 blake2 expat nettle zstd xar z3 colord brotli ssh samba rtmp metalink cookie_check numpy"
+USE="-kdeprefix -arts -qt3 -beagle -gnome -evo -mono -eds -apm -oss \
+     -branding -esd musicbrainz sdl pulseaudio wmf fame cdr dvi mp3rtp \
+     xine cddb alsa dvb dvd bluray network dvdread ipod audiofile \
+     artswrappersuid dvdr jack dri cdda libav mjpeg mmx joystick \
+     xvmc cpudetection v4l v4l2 wavpack vpx vdpau svg x264 x265 gsm \
+     lame opus dv mp3 stream live openal theora ogg a52 \
+     win32codecs matroska xvid flac ffmpeg aac speex real dts musepack cjk \
+     unicode gnutls nptl gcj udev logind -consolekit kerberos acl \
+     dbus bash-completion lzo rar policykit xcb bzip2 bidi wifi \
+     lm_sensors acpi usb pcmcia bluetooth irda ieee1394 perl python \
+     numa fat hfs jfs xfs ntfs reiserfs sysfs inotify lzma lz4 \
+     cups ppds foomatic-db gimpprint freetype xprint scanner cairo X \
+     opengl png gif gtk qt4 qt5 qt3support xpm tiff xinerama aiglx \
+     gphoto2 dga lcd openexr wayland multitarget \
+     kdehiddenvisibility gmp libnotify rdesktop pda zeroconf kdeenablefinal \
+     visualization avahi startup-notification accessibility nsplugin \
+     firefox mozdevelop xulrunner jabber msn yahoo icq irc aim rss \
+     slp mail imap http2 tk sqlite sctp minipentoo upnp ldap odbc \
+     gold ocaml neon equalizer egl wavepak schroedinger twolame cdio \
+     armvfp vaapi d3d9 gles1 openmax tools icu sha3 blake2 expat \
+     nettle zstd xar z3 colord brotli ssh samba rtmp cookie_check \
+     numpy -systemd -kill"
+
+INPUT_DEVICES="evdev void wacom "
+## rpi dosnet need as many VC's however targeting servers now also , calverium has nvida soc, softiron is amd...
+VIDEO_CARDS="fbdev vesa radeonsi radeon fbdev vc4 nouveau amdgpu radeon neon vdpau egl radeonsi vmware freedreno panfrost mali virgl"
+#nouveau NVIDA-arm64 neon arm/arm64
+LIRC_DEVICES="audio audio_alsa devinput pctv"
+ALSA_CARDS="emu10k1x darla20 darla24 emu10k1 gina20 gina24 hdsp hdspm ice1712 indigo indigoio layla20 layla24 mia mixart mona pcxhr rme32 rme96 sb16 sbawe sscape usbusx2y vx222 usb-usx2y"
+CAMERAS="agfa_cl20 casio_qv dimagev dimera3500 kodak_dc120 kodak_dc210 kodak_dc240 kodak_dc3200 kodak_ez200 konica_qm150 panasonic_coolshot panasonic_dc1000 panasonic_dc1580 panasonic_l859 polaroid_pdc320 polaroid_pdc640 polaroid_pdc700 ricoh_g3 sipix_blink sipix_blink2 sipix_web2 sony_dscf1 sony_dscf55 toshiba_pdrm11 adc65 aox barbie canon clicksmart310 digigr8 digita directory enigma13 fuji gsmart300 hp215 iclick jamcam jd11 konica largan lg_gsm mars mustek pccam300 pccam600 ptp2 ricoh samsung sierra smal sonix soundvision spca50x sq905 stv0674 stv0680 sx330z template"
+
+
+## OFFICE ##
+LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer pdfimport wiki-publisher"
+
+## QEMU ##
+QEMU_USER_TARGETS="alpha arm aarch64 armeb cris i386 m68k microblaze mips mipsel ppc ppc64 ppc64abi32 sh4 sh4eb sparc sparc32plus sparc64 x86_64"
+QEMU_SOFTMMU_TARGETS="x86_64 arm aarch64 cris i386 m68k microblaze mips mips64 mips64el mipsel ppc ppc64 ppcemb sh4 sh4eb sparc sparc64"
+
+USE_PYTHON="3.6"
+
+PYTHON_TARGETS="python2_7 python3_6 python3_7 python3_8 python3_9"
+#mgorny python hack tip.  can force for newer 36 py.. etc.. if i get wind of coming py34 deprication
+## python-3.5 tending to fuck with crap on rpi3-64 , server not so bad since newer ver.
+## PYTHON_COMPAT_OVERRIDE='pypy3'
+#pypy pypy3 wont build on  2 gigs+++  =< RPI3 has a gig.
+
+# Some more forced targets
+# update me .. PHP_TARGETS="php5-6"
+RUBY_TARGETS="ruby25 ruby26 ruby27"
+# ruby24 fails to comiple on rpi3 perhaps on Bannanpi64 or with more RAM, it will sit on R-PI3 for dayz....
+
+# https://github.com/gentoo/dotnet layman -a dotnet
+DOTNET_TARGETS="net45 net40 net50 net60"
+
+# Setup GRUB platforms
+GRUB_PLATFORMS="arm  arm64"
+
+# Support both 64bit and 32bit
+ABI_arm64="arm64 arm7hf lp64 lp32" ## would be a plus.
+
+## PORTAGE CONFIG ##
+##PORTDIR_OVERLAY="/usr/local/portage"
+PORTDIR_OVERLAY="/var/lib/layman/"
+
+#source /var/lib/layman/make.conf
+CONFIG_PROTECT="/usr/share/config/kdm /etc /etc/conf.d /etc/init.d"
+# /lib/modules mask is useful for our internal tinderbox
+CONFIG_PROTECT_MASK="/etc/skel /lib/modules"
+
+# Set PORTDIR for backward compatibility with various tools:
+#   gentoo-bashcomp - bug #478444
+#   euse - bug #474574
+#   euses and ufed - bug #478318
+
+## xpak sometimes are usable othertimes metadata, dont sftp cleanly...
+

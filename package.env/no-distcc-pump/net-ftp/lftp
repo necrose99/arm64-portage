@@ -1,0 +1,1 @@
+net-ftp/lftp no-distcc-pump.conf # Bug 663154

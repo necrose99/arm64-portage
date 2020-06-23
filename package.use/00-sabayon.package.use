@@ -722,7 +722,8 @@ net-misc/networkmanager -bluetooth connection-sharing dhclient -dhcpcd -gnutls i
 # NEW: USE=gtk makes these plugins work properly with
 # newer nm-applet. Please, don't remove it and see
 # bug 3508
-net-misc/networkmanager-openvpn gtk
+# move net-misc/networkmanager-openvpn net-vpn/networkmanager-openvpn
+net-vpn/networkmanager-openvpn gtk
 net-misc/networkmanager-openswan gtk
 net-misc/networkmanager-openconnect gtk
 net-misc/networkmanager-pptp gtk

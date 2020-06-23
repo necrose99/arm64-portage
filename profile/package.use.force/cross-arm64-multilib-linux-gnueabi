@@ -1,0 +1,5 @@
+cross-arm64-multilib-linux-gnueabi/binutils -multilib
+cross-arm64-multilib-linux-gnueabi/gcc -multilib
+cross-arm64-multilib-linux-gnueabi/linux-headers -multilib
+cross-arm64-multilib-linux-gnueabi/glibc -multilib
+cross-arm64-multilib-linux-gnueabi/gdb -multilib

@@ -1,0 +1,310 @@
+# required by app-portage/g-sorcery-9999::gentoo
+# required by /packages/app-portage/g-sorcery-9999.tbz2 (argument)
+>=app-portage/layman-2.4.2-r2 g-sorcery
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby25]
+>=dev-ruby/net-telnet-0.2.0 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/rake-compiler-1.0.7::gentoo[ruby_targets_ruby26]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/json-2.3.0 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby25]
+>=dev-ruby/xmlrpc-0.3.0 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo[rdoc]
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/nokogiri-1.10.3::gentoo
+# required by dev-ruby/rails-dom-testing-1.0.8-r1::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/actionpack-4.2.11.1::gentoo[ruby_targets_ruby24]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/rdoc-6.2.0 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby25]
+>=dev-ruby/test-unit-3.3.5 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby25]
+>=dev-ruby/power_assert-1.1.5 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby26]
+>=dev-ruby/bundler-2.1.4 ruby_targets_ruby27
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-2.7.0::gentoo[rdoc]
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/nokogiri-1.10.3::gentoo
+# required by dev-ruby/rails-dom-testing-1.0.8-r1::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/actionpack-4.2.11.1::gentoo[ruby_targets_ruby24]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/kpeg-1.1.0-r1 ruby_targets_ruby27
+# required by dev-ruby/bundler-2.1.4::gentoo[-test,ruby_targets_ruby27]
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby25]
+# required by @selected
+# required by @world (argument)
+>=virtual/rubygems-16 ruby_targets_ruby27
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rake-13.0.1::gentoo[ruby_targets_ruby26]
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby25]
+>=dev-ruby/rubygems-3.1.2 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/kpeg-1.1.0-r1::gentoo[ruby_targets_ruby25]
+>=dev-ruby/did_you_mean-1.4.0 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/did_you_mean-1.4.0::gentoo
+>=dev-ruby/rake-13.0.1 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby25]
+>=dev-ruby/minitest-5.14.0 ruby_targets_ruby27
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-2.7.0::gentoo[rdoc]
+# required by dev-ruby/minitest-5.14.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/activesupport-4.2.11.1::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/activemodel-4.2.11.1::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/metasploit-concern-2.0.5::gentoo[ruby_targets_ruby24]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/racc-1.4.16-r1 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby25]
+>=dev-ruby/net-telnet-0.2.0 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/rake-compiler-1.0.7::gentoo[ruby_targets_ruby26]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/json-2.3.0 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby25]
+>=dev-ruby/xmlrpc-0.3.0 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo[rdoc]
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/nokogiri-1.10.3::gentoo
+# required by dev-ruby/rails-dom-testing-1.0.8-r1::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/actionpack-4.2.11.1::gentoo[ruby_targets_ruby24]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/rdoc-6.2.0 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby25]
+>=dev-ruby/test-unit-3.3.5 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby25]
+>=dev-ruby/power_assert-1.1.5 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby26]
+>=dev-ruby/bundler-2.1.4 ruby_targets_ruby27
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-2.7.0::gentoo[rdoc]
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/nokogiri-1.10.3::gentoo
+# required by dev-ruby/rails-dom-testing-1.0.8-r1::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/actionpack-4.2.11.1::gentoo[ruby_targets_ruby24]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/kpeg-1.1.0-r1 ruby_targets_ruby27
+# required by dev-ruby/bundler-2.1.4::gentoo[-test,ruby_targets_ruby27]
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby25]
+# required by @selected
+# required by @world (argument)
+>=virtual/rubygems-16 ruby_targets_ruby27
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rake-13.0.1::gentoo[ruby_targets_ruby26]
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby25]
+>=dev-ruby/rubygems-3.1.2 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/kpeg-1.1.0-r1::gentoo[ruby_targets_ruby25]
+>=dev-ruby/did_you_mean-1.4.0 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/did_you_mean-1.4.0::gentoo
+>=dev-ruby/rake-13.0.1 ruby_targets_ruby27
+# required by dev-lang/ruby-2.7.0::gentoo
+# required by dev-ruby/racc-1.4.16-r1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/bundler-2.1.4::gentoo[doc,ruby_targets_ruby24]
+# required by dev-lang/ruby-2.6.3::gentoo
+# required by dev-ruby/rubygems-3.1.2::gentoo[ruby_targets_ruby26]
+# required by virtual/rubygems-16::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rake-13.0.1::gentoo
+# required by dev-ruby/json-2.3.0::gentoo[-test,ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.4.0::gentoo[ruby_targets_ruby25]
+>=dev-ruby/minitest-5.14.0 ruby_targets_ruby27
+# required by dev-ruby/rdoc-6.2.0::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-2.7.0::gentoo[rdoc]
+# required by dev-ruby/minitest-5.14.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/activesupport-4.2.11.1::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/activemodel-4.2.11.1::gentoo[ruby_targets_ruby24]
+# required by dev-ruby/metasploit-concern-2.0.5::gentoo[ruby_targets_ruby24]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/racc-1.4.16-r1 ruby_targets_ruby27
+# required by sys-boot/os-prober-1.76-r1::gentoo
+# required by sys-boot/os-prober (argument)
+>=sys-boot/grub-2.05_alpha20200310 mount
+# required by media-tv/kodi-9999::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-video/ffmpeg-9999 dav1d

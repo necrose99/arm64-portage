@@ -1,4 +1,5 @@
-net-misc/networkmanager-openvpn	* ~*
+# move net-misc/networkmanager-openvpn net-vpn/networkmanager-openvpn
+net-vpn/networkmanager-openvpn	* ~*
 # dependencies of net-misc/networkmanager-openvpn
 net-libs/libqmi	* ~*
 net-misc/modemmanager	* ~*

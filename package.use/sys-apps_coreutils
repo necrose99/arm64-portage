@@ -1,1 +1,1 @@
-sys-apps/coreutils  acl gmp nls split-usr xattr caps kill multicall
+sys-apps/coreutils  acl gmp nls split-usr xattr caps  multicall

@@ -3,3 +3,8 @@
 # Hanno Boeck <hanno@gentoo.org> (27 May 2019)
 # Obsolete LXDE modules, see #652658, #651964
 =lxde-base/lxsession-edit-0.2.0
+# required by app-eselect/eselect-php-0.9.5::gentoo[apache2]
+# required by dev-lang/php-7.2.19::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+# /etc/portage/package.mask/apache:
+=www-servers/apache-2.4.39

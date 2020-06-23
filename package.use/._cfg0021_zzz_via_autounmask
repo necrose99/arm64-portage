@@ -1,3 +1,0 @@
-# required by dev-lang/php-7.2.19::gentoo
-# required by @__auto_slot_operator_replace_installed__ (argument)
->=app-eselect/eselect-php-0.9.5 apache2
