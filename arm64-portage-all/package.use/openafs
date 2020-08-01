@@ -1,0 +1,1 @@
+net-fs/openafs kerberos modules ncurses pam supergroups bitmap-later -debug -doc fuse -pthreaded-ubik

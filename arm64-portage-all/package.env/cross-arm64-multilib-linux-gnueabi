@@ -1,0 +1,5 @@
+cross-arm64-multilib-linux-gnueabi/binutils cross-arm64-multilib-linux-gnueabi/binutils.conf
+cross-arm64-multilib-linux-gnueabi/gcc cross-arm64-multilib-linux-gnueabi/gcc.conf
+cross-arm64-multilib-linux-gnueabi/linux-headers cross-arm64-multilib-linux-gnueabi/linux-headers.conf
+cross-arm64-multilib-linux-gnueabi/glibc cross-arm64-multilib-linux-gnueabi/glibc.conf
+cross-arm64-multilib-linux-gnueabi/gdb cross-arm64-multilib-linux-gnueabi/gdb.conf

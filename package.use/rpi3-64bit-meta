@@ -23,4 +23,4 @@
 #
 # NB the main point of the core, xfce, pitop and apps USE flags is just to let
 # you reduce what is in your @world set (/var/lib/portage/world).
-dev-embedded/rpi3-64bit-meta weekly-genup porthash
+dev-embedded/rpi3-64bit-meta weekly-genup porthash xfce apps core

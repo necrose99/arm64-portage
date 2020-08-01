@@ -1,0 +1,5 @@
+cross-armv7a-hardfloat-linux-gnueabi
+cross-aarch64-pc-mingw32
+cross-arm7hf-pc-mingw32
+cross-armv7-hardfloat-linux-gnueabi
+cross-arm64-multilib-linux-gnueabi

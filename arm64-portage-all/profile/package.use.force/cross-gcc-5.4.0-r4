@@ -1,0 +1,4 @@
+cross-gcc-5.4.0-r4/binutils -multilib
+cross-gcc-5.4.0-r4/gcc -multilib
+cross-gcc-5.4.0-r4/mingw64-runtime -multilib
+cross-gcc-5.4.0-r4/gdb -multilib

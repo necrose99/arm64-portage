@@ -1,0 +1,4 @@
+cross-arm64-w64-mingw32/binutils arm ~arm -arm64 -~arm64
+cross-arm64-w64-mingw32/gcc arm ~arm -arm64 -~arm64
+cross-arm64-w64-mingw32/mingw64-runtime arm ~arm -arm64 -~arm64
+cross-arm64-w64-mingw32/gdb arm ~arm -arm64 -~arm64

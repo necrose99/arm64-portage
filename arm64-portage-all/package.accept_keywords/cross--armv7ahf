@@ -1,0 +1,5 @@
+cross--armv7ahf/binutils * ~* -arm64 -~arm64
+cross--armv7ahf/gcc -*
+gcc-cross--armv7ahf/gcc-5.4.0-r4 * ~* **
+cross--armv7ahf/linux-headers * ~* -arm64 -~arm64
+cross--armv7ahf/gdb * ~* -arm64 -~arm64

@@ -1,0 +1,3 @@
+# move net-misc/openvpn net-vpn/openvpn
+net-vpn/openvpn	* ~*
+

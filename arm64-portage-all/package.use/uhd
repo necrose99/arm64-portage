@@ -1,0 +1,1 @@
+net-wireless/uhd usb utils b100 b200  e300  mpmd -n230 octoclock usrp2 x300

@@ -1,0 +1,4 @@
+cross-x86_64-pc-mingw32/gcc -sanitize -vtv
+cross-i686-pc-mingw32/gcc -sanitize -vtv
+cross-arm7hf-pc-mingw32/gcc -sanitize -vtv
+cross-aarch64-pc-mingw32/gcc -sanitize -vtv

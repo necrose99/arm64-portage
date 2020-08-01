@@ -1,0 +1,5 @@
+cross-i686-pc-mingw32/binutils x86 -arm64 -~arm64
+cross-i686-pc-mingw32/gcc x86 -arm64 -~arm64
+cross-i686-pc-mingw32/w32api x86 -arm64 -~arm64
+cross-i686-pc-mingw32/mingw-runtime x86 -arm64 -~arm64
+cross-i686-pc-mingw32/gdb x86 ~x86 -arm64 -~arm64

@@ -1,0 +1,4 @@
+cross--armv7ahf/binutils -multilib
+cross--armv7ahf/gcc -multilib
+cross--armv7ahf/linux-headers -multilib
+cross--armv7ahf/gdb -multilib

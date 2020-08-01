@@ -1,0 +1,171 @@
+# Only use stable versions of these libs
+sys-apps/entropy -~arm64 -~arm
+app-admin/equo -~arm64 -~arm
+# sys-kernel/linux-headers -~amd64 -~x86 -~arm64 -~arm
+sys-libs/glibc -~amd64 -~x86 -~arm64 -~arm 
+<dev-lang/python-3 -~amd64 -~x86 -~arm64 -~arm 
+dev-libs/openssl -~amd64 -~x86 -~arm64 -~arm 
+dev-lang/perl -~amd64 -~x86 -~arm64 -~arm 
+sys-devel/make -~amd64 -~x86 -~arm64 -~arm 
+sys-kernel/linux-headers -~amd64 -~x86 -~arm64
+net-libs/gnutls -~amd64 -~x86 -~arm64 -~arm 
+# Accept gnutls-3.3 now
+=net-libs/gnutls-3.3* ~amd64 ~x86 amd64 x86
+dev-lang/tcl -~amd64 -~x86 -~arm64 -~arm -~x86 
+dev-lang/tk -~amd64 -~x86 -~arm64 -~arm -~x86
+dev-lang/ghc -~amd64 -~x86 -~arm64 -~arm -~x86 
+dev-lang/ruby -~amd64 -~x86 -~arm64 -~arm -~x86 
+# media-video/libav -~amd64 -~x86 -~arm64 -~arm 
+virtual/ffmpeg -~amd64 -~x86 -~arm64 -~arm -~x86 
+# Force stable boost
+dev-libs/boost -~amd64 -~x86 -~arm64 -~arm -~x86
+dev-util/boost-build -~amd64 -~x86 -~arm64 -~arm 
+
+# Apache is a critical component and 2.2 is still
+# "good enough", 2.4 isn't yet stabilized
+app-admin/apache-tools -~amd64 -~x86 -~arm64 -~arm 
+www-servers/apache ~amd64 ~x86 -~arm64 -~arm
+
+<app-admin/apache-tools-2.3 ~amd64 ~x86 amd64 x86
+# required to compile Chromium on x86, it seems
+=sys-devel/make-3.82-r4 ~amd64 ~x86 -~arm64 -~arm
+
+# force stable libpng
+media-libs/libpng -~amd64 -~x86 -~arm64 -~arm 
+# but allow libpng 1.6, we need ABI_X86 support
+=media-libs/libpng-1.6* ~amd64 ~x86 -~arm64 -~arm
+
+# force stable icu
+dev-libs/icu -~amd64 -~x86 -~arm64 -~arm
+
+app-crypt/qca:2 **
+dev-python/pycups **
+
+# Grub2, make binpkg for now, keep masked
+<sys-boot/grub-2.99 ** 
+
+# Use portage-2.2
+=sys-apps/portage-2.2* ** -~arm64 -~arm
+
+# gst-plugins missing x86 keywords
+media-plugins/gst-plugins-assrender ** -~arm64 -~arm
+
+# using only stable versions
+www-client/chromium -~amd64 -~x86 -~arm64 -~arm 
+
+# OpenEXR 2.0.0 causes a huge breakage, keep stable, mask unstable
+media-libs/ilmbase -~amd64 -~x86 -~arm64 -~arm 
+media-libs/openexr -~amd64 -~x86 -~arm64 -~arm 
+media-gfx/openexr_viewers -~amd64 -~x86 -~arm64
+media-libs/openexr_ctl -~amd64 -~x86 -~arm64 -~arm 
+
+# These are a pain in the ass when they abi break
+net-libs/libosip -~amd64 -~x86 -~arm64 -~arm
+# net-libs/libeXosip -~amd64 -~x86 -~arm64 -~arm
+
+# Accept any libav-0.8* and virtual/ffmpeg-0.10*
+# This is what we currently support
+=virtual/ffmpeg-0.10* ~amd64 ~x86 -~arm64 -~arm
+=media-video/libav-9* ~amd64 ~x86 -~arm64 -~arm
+=virtual/ffmpeg-9* ~amd64 ~x86 -~arm64 -~arm
+
+# new libvirt may break virtinst revdep, force stable
+app-emulation/libvirt -~amd64 -~x86 -~arm64 -~arm
+
+# Latest libgcrypt may break a gazillion of pkgs,
+# wait for it to be stabilized
+dev-libs/libgcrypt -~amd64 -~x86 -~arm64 -~arm
+# allow 1.5 on amd64, mainly due to true multilib
+=dev-libs/libgcrypt-1.5* ~amd64 ~x86 -~arm64 -~arm
+
+# Force stable, due to Gentoo bug #495236
+dev-python/tempita -~amd64 -~x86 -~arm64 -~arm
+
+# vlc fails configure with unstable libdvbpsi
+media-libs/libdvbpsi -~amd64 -~x86 -~arm64 -~arm 
+
+# old singular versions failed with unstable ntl
+# while no longer the case, it may be a good idea to keep it stable
+dev-libs/ntl -~amd64 -~x86 -~arm64 -~arm 
+
+# we want stable systemd stack
+virtual/udev -~amd64 -~x86 -~arm64 -~arm 
+sys-apps/systemd -~amd64 -~x86 -~arm64 -~arm 
+# allow unstable systemd-226
+=sys-apps/systemd-226* ~amd64 ~x86 -~arm64 -~arm
+
+# Allow any openssl 0.9.8y revision as well
+=dev-libs/openssl-0.9.8* ~amd64 ~x86
+# Allow any openssl 1.0.1 as well, this includes
+# true multilib aware versions, only needed for amd64
+=dev-libs/openssl-1.0.1* ~amd64 -~arm64 -~arm
+
+# keep xdebug-client to stable, since devs tend to update
+# xdebug and xdebug-client separately
+dev-php/xdebug-client -~amd64 -~x86 -~arm64 -~arm 
+
+# Prefer a stable and reliable version of freetype
+media-libs/freetype -~amd64 -~x86 -~arm64 -~arm 
+
+# Use stable clhep to avoid breaking geant
+sci-physics/clhep -~amd64 -~x86 -~arm64 -~arm 
+# Allow 2.1.4.2 as it works fine
+~sci-physics/clhep-2.1.4.2 ~amd64 ~x86 amd64 x86
+
+# Force stable pyparsing since unstable 2.0.x introduces incompatible changes
+dev-python/pyparsing -~amd64 -~x86 -~arm64 -~arm
+
+# Unmask ghc-7.8 since Portage insists on wanting it
+=dev-lang/ghc-7.8* ** ~amd64
+
+# Use stable lib3ds because unstable breaks ABI
+media-libs/lib3ds -~amd64 -~x86 -~arm64 -~arm 
+
+# Use stable net-misc/freerdp because unstable breaks ABI
+net-misc/freerdp -~amd64 -~x86 -~arm64 -~arm
+
+# Use stable version, can easily break LMs
+sys-auth/polkit -~amd64 -~x86 -~arm64 -~arm
+
+# Use stable version
+sys-apps/iproute2 -~amd64 -~x86 -~arm64 -~arm
+
+# Only stable gcc
+sys-devel/gcc -~amd64 -~x86 -~arm64 -~arm
+sys-devel/base-gcc -~amd64 -~x86 -~arm64 -~arm
+
+# Default config file /etc/mke2fs.conf of the unstable e2fsprogs breaks Calamares
+# anyway, old /etc/mke2fs.conf from stable versions works on unstable
+sys-fs/e2fsprogs -~amd64 -~x86 -~arm64 -~arm
+
+# Only stable NetworkManager
+net-misc/networkmanager -~amd64 -~x86 -~arm64 -~arm
+
+# Keep efi components stable
+sys-boot/efibootmgr -~amd64 -~x86 -~arm64 -~arm
+sys-libs/efivar -~amd64 -~x86 -~arm64 -~arm
+
+# keep gnupg stable, >2.1.11 suffer of the interactive prompting bug, ignoring and breaking --batch
+app-crypt/gnupg -~amd64 -~x86 -~arm64 -~arm
+
+# Use stable version
+media-libs/libvpx -~amd64 -~x86 -~arm64 -~arm
+
+# Use stable version
+dev-scheme/guile -~amd64 -~x86 -~arm64 -~arm
+
+# Use stable dev-libs/protobuf
+dev-libs/protobuf -~amd64 -~x86 -~arm64 -~arm
+
+# we use Samba from overlay, tracking stable versions
+# use stable sys-libs/tevent to avoid problems like in bug 5362
+# (Samba is tevent's main reverse dependency)
+sys-libs/tevent -~amd64 -~x86 -~arm64 -~arm
+
+# Use stable dev-libs/libRocket
+dev-libs/libRocket -~amd64 -~x86 -~arm64 -~arm
+
+# Use stable media-libs/libopenraw
+media-libs/libopenraw -~amd64 -~x86 -~arm64 -~arm 
+
+

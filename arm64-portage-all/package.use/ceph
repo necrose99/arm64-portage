@@ -1,0 +1,1 @@
+sys-cluster/ceph -tcmalloc gtk ldap libaio -nss radosgw  babeltrace cephfs cryptopp -debug fuse mgr libatomic lttng  xfs zfs

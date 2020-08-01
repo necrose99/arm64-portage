@@ -1,0 +1,2 @@
+This sentinel file prevents fixup-0009 from trying to migrate
+Portage directories a second time.

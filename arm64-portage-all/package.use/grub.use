@@ -1,0 +1,20 @@
+sys-boot/grub device-mapper libzfs 
+sys-boot/grub efiemu sdl fonts mount nls themes truetype 
+sys-boot/grub grub_platforms_arm64 grub_platforms_arm
+sys-boot/grub grub_platforms_uboot grub_platforms_efi-32 grub_platforms_efi-64
+
+## required for arm64/x86 embeded. aarch64 migrate to uboot/grubefi 
+## /boot/efi , /boot , symlink /boot/overlay/dtd's /boot/efi/overlay#
+## debian already can use grub-efi to pick kernel/s already has. gpt sdcard etc...
+
+sys-boot/grub grub_platforms_pc # sys-boot/woeusb ie wndows10 x64/86/arm64 compat# 
+### emulation oftions 
+#sys-boot/grub grub_platforms_qemu grub_platforms_qemu-mips 
+### xem Emu 
+#sys-boot/grub grub_platforms_xen 
+#sys-boot/grub grub_platforms_xen-pvh
+
+##sys-boot/grub:2:gentoo
+##  USE="device-mapper fonts mount nls themes truetype -doc* -efiemu* (-libzfs) (-sdl) (-test)" 
+# GRUB_PLATFORMS="-coreboot -efi-32 -efi-64 -emu -ieee1275 -loongson -multiboot 
+# -pc -qemu -qemu-mips -uboot -xen (-xen-32) -xen-pvh" 

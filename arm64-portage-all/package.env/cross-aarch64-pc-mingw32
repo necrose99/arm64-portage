@@ -1,0 +1,5 @@
+cross-aarch64-pc-mingw32/binutils cross-aarch64-pc-mingw32/binutils.conf
+cross-aarch64-pc-mingw32/gcc cross-aarch64-pc-mingw32/gcc.conf
+cross-aarch64-pc-mingw32/w32api cross-aarch64-pc-mingw32/w32api.conf
+cross-aarch64-pc-mingw32/mingw-runtime cross-aarch64-pc-mingw32/mingw-runtime.conf
+cross-aarch64-pc-mingw32/gdb cross-aarch64-pc-mingw32/gdb.conf

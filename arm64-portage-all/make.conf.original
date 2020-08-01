@@ -1,0 +1,39 @@
+# Simple make.conf for 64-bit Raspberry Pi 3
+
+# NB most settings now taken from the default/linux/arm64/13.0/desktop/rpi3
+# profile
+# See /usr/local/portage/rpi3/profiles/targets/rpi3/<...>
+# You can override as desired in this file (/etc/portage/make.conf)
+# (and via the other /etc/portage/<...> subdirectory entries)
+
+# Some scripts looks for PORTDIR in make.conf explicitly
+PORTDIR="/usr/portage"
+
+# for use when compiling locally
+MAKEOPTS="-j5 -l4"
+EMERGE_DEFAULT_OPTS="--jobs=5 --load-average=4"
+# for use with compiling with distcc only
+#MAKEOPTS="-j8 -l4"
+#EMERGE_DEFAULT_OPTS="--jobs=5 --load-average=4"
+
+# per https://wiki.gentoo.org/wiki/Raspberry_Pi_VC4
+VIDEO_CARDS="fbdev vc4"
+INPUT_DEVICES="evdev synaptics"
+
+# use (and verify) signed package snapshots
+#FEATURES="${FEATURES} webrsync-gpg"
+#PORTAGE_GPG_DIR="/etc/portage/gpg"
+
+# uncomment to build binary packages as a byproduct of each emerge
+# (these are useful backups) in /usr/portage/packages
+FEATURES="${FEATURES} buildpkg"
+
+# uncomment to disribute emerges, where possible, using distcc
+#FEATURES="${FEATURES} distcc distcc-pump"
+
+# uncomment to use binary packages from PORTAGE_BINHOST, where available,
+# (and build normally, where not)
+FEATURES="${FEATURES} getbinpkg"
+PORTAGE_BINHOST="https://isshoni.org/pi64pie"
+
+GENTOO_MIRRORS="http://gentoo.osuosl.org/ http://trumpetti.atm.tut.fi/gentoo/"
