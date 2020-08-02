@@ -21,6 +21,6 @@ MAKEOPTS="-j6 -l10"
 # Please keep this setting intact when reporting bugs.
 LC_MESSAGES=C
 
-USE="gles2 gles2-only "
+USE="gles2 gles2-only "  #pinebookpro  GPU dosent do well under wayland. 
 
 EMERGE_DEFAULT_OPTS="--ask-enter-invalid --autounmask --autounmask-write --jobs 6 --load-average 5"
