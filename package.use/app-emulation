@@ -1,0 +1,14 @@
+# virt stuff
+app-emulation/e-uae capslib
+app-emulation/ganeti kvm lxc htools
+app-emulation/libvirt lxc rbd virtualbox fuse kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
+# Added virgl and gtk to introduce virtual 3D gpu on qemu
+
+app-emulation/vice -gtk
+app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
+app-emulation/vmware-workstation ovftool server vix
+# Wine, more features
+app-emulation/wine fontconfig pipelight samba staging udisks
+app-emulation/winetricks -gtk
+# add HVM
+app-emulation/xen-tools hvm qemu

@@ -1,0 +1,2 @@
+This sentinel file prevents fixup-0011 from trying to depclean
+app-portage/porthole a second time.

@@ -1,0 +1,3 @@
+lxqt-base/lxqt-panel  alsa desktopswitch directorymenu kbindicator mainmenu mount pulseaudio quicklaunch showdesktop spacer taskbar tray volume worldclock colorpicker cpuload dom lm-sensors networkmonitor statusnotifier sysstat
+#
+lxqt-base/lxqt-meta about display-manager  filemanager lximage  nls  policykit   ssh-askpass trash admin archiver minimal powermanagement processviewer screenshot sudo terminal lightdm -sddm

@@ -1,0 +1,3 @@
+ virtual/linux-sources firmware
+ sys-kernel/pentoo-sources experimental pentoo-experimental symlink
+ sys-kernel/gentoo-sources experimental

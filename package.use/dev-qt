@@ -1,0 +1,7 @@
+dev-qt/qtnetwork   ssl connman  gssapi libproxy  networkmanager sctp 
+dev-qt/* qml
+dev-qt/designer declarative webkit
+
+dev-qt/qtwebengine designer geolocation libcxx system-ffmpeg
+
+dev-qt/qtnetwork sctp X509 audit hpn kerberos ldns

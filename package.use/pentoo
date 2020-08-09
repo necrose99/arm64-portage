@@ -1,1 +1,73 @@
+### arm64 pentoo 
+pentoo/pentoo analyzer bluetooth cracking database desktop exploit footprint forensics forging fuzzers misc mitm mobile nfc pentoo proxies radio rce scanner voip pentoopentoo/pentoo wireless extras java
+#
+#
+pentoo/pentoo-analyzer 
+#
+#
+ pentoo/pentoo-bluetooth 
+#
+#
+ pentoo/pentoo-cracking
+#
+#
+ pentoo/pentoo-database 
+#
+#
+ pentoo/pentoo-desktop
+ #
+# 
+ pentoo/pentoo-exploit 
+ #
+#
+ pentoo/pentoo-footprint 
+ #
+#
+ pentoo/pentoo-forensics 
+ #
+#
+ pentoo/pentoo-forging 
+ #
+#
+ pentoo/pentoo-fuzzers 
+ #
+#
+ pentoo/pentoo-misc 
+ #
+#
+ pentoo/pentoo-mitm 
+ #
+#
+ pentoo/pentoo-mobile 
+#
+#
+ pentoo/pentoo-nfc 
+#
+#
+ pentoo/pentoo-proxies
+#
+# 
 pentoo/pentoo-radio mono
+#
+#
+ pentoo/pentoo-rce
+#
+#
+ pentoo/pentoo-voip
+#
+# 
+ pentoo/pentoo-wireless pentoo-extra pentoo-full livecd-stage1 gps 
+ # gps no go , force build deps for now.
+ 
+ ################ appps. 
+ net-wireless/uhd b100 b200 mpmd n230 octoclock usb usrp1 usrp2 utils x300 e300
+ 
+ net-wireless/srslte bladerf simcard soapysdr uhd zeromq
+ net-wireless/soapysdr bladerf hackrf plutosdr python rtlsdr uhd
+virtual/cblas eselect-ldso
+
+app-antivirus/veil tools
+
+net-wireless/gr-osmosd python rtlsdr airspy bladerf hackrf iqbalance mirisdr sdrplay soapy uhd
+
+ net-wireless/gnuradio alsa analog audio digital filter jack qt5 sdl utils channels dtv  fec grc modtool performance-counters   trellis uhd vocoder wavelet zeromq

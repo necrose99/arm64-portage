@@ -5,8 +5,7 @@ app-accessibility/julius -alsa pulseaudio -oss -portaudio
 app-accessibility/simon -alsa pulseaudio -oss -portaudio
 
 app-admin/conky -audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thinkpad weather-metar weather-xoap -ipv6
-# eselect-php now contains fpm init script and apache stuff
-app-eselect/eselect-php fpm apache2
+
 # Somewhat arbitrary, to reduce depenencies - enable qt4 in testdisk if you think it's right.
 # (Previous versions didn't have it, so nothing should be "lost.")
 app-admin/testdisk -qt4
@@ -37,21 +36,7 @@ app-cdr/k3b taglib
 app-cdr/xfburn gstreamer
 
 # required by seahorse
-app-crypt/gcr vala
-# We really wanted USE=static in order
-# to not add many pkgs on 700Mb sized ISO
-# images but it turned out to be buggy,
-# see bug 2781
-app-crypt/gnupg -static bzip2 smartcard
-# required by app-backup/deja-dup
-app-crypt/libsecret vala
-app-crypt/mit-krb5 krb4 openldap
-# app-crypt/pinentry is now a meta-package
-# enable GTK2 by default, people complaining
-# about dependencies, should really use pinentry-base
-# instead
-app-crypt/pinentry gtk qt4 -qt5
-app-crypt/qca gpg
+
 
 app-doc/doxygen dot
 
@@ -65,20 +50,7 @@ app-editors/xemacs xft
 
 app-emacs/auctex preview-latex
 
-# virt stuff
-app-emulation/e-uae capslib
-app-emulation/ganeti kvm lxc htools
-app-emulation/libvirt lxc rbd virtualbox fuse kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
-# Added virgl and gtk to introduce virtual 3D gpu on qemu
-app-emulation/qemu glusterfs nfs rbd fdt spice -gtk virtfs xattr usbredir gtk virgl
-app-emulation/vice -gtk
-app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
-app-emulation/vmware-workstation ovftool server vix
-# Wine, more features
-app-emulation/wine fontconfig pipelight samba staging udisks
-app-emulation/winetricks -gtk
-# add HVM
-app-emulation/xen-tools hvm qemu
+
 
 # USE flag gtk3 enabled on app-i18n/ibus makes it depend on both slots of Gtk+; it shouldn't
 # be a real problem though since everyone nowadays has normally both of them installed.
@@ -588,8 +560,7 @@ media-tv/mythtv fftw
 
 media-video/blinkensim aalib
 media-video/dvgrab quicktime
-virtual/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx jpeg2k
-media-video/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx
+
 media-video/jubler mplayer
 media-video/kino gstreamer quicktime
 media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_nvidia vpx jpeg2k
@@ -636,13 +607,7 @@ net-dialup/mgetty -fax
 net-dialup/ppp atm dhcp radius -gtk
 net-dialup/freeradius threads
 
-net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm -gtk python autoipd -qt4 introspection
-net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
-net-dns/avahi-gtk introspection
-net-dns/avahi-gtk3 introspection
-net-dns/avahi-mono introspection
-net-dns/avahi-qt introspection
-net-dns/dnsmasq -dbus tftp conntrack dhcp script dhcp-tools
+
 # We must choose between mysql and postgres
 net-dns/mydns mysql
 net-firewall/fwknop firewalld server
@@ -717,16 +682,7 @@ net-misc/minidlna netgear readynas
 net-misc/mosh ufw
 # bluetooth use flag is useless
 # wext due to bug 3283
-net-misc/networkmanager -bluetooth connection-sharing dhclient -dhcpcd -gnutls introspection modemmanager nss wext wimax
-# OLD: to make VPN working with networkmanager (nm-applet)
-# NEW: USE=gtk makes these plugins work properly with
-# newer nm-applet. Please, don't remove it and see
-# bug 3508
-net-misc/networkmanager-openvpn gtk
-net-misc/networkmanager-openswan gtk
-net-misc/networkmanager-openconnect gtk
-net-misc/networkmanager-pptp gtk
-net-misc/networkmanager-vpnc gnome
+
 net-misc/ntp -zeroconf
 net-misc/openssh -X
 net-misc/openssh -ldap
@@ -822,8 +778,7 @@ sys-apps/hwdata-gentoo binary-drivers
 # Do we really want berkdb?
 sys-apps/man-db -berkdb
 sys-apps/pciutils -zlib
-# systemd support
-sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
+
 # Install tty helpers (like wall)
 sys-apps/util-linux tty-helpers
 
@@ -877,7 +832,7 @@ dev-libs/glib static-libs
 dev-libs/elfutils static-libs
 sys-libs/gpm static-libs
 
-sys-kernel/dracut device-mapper dracut_modules_biosdevname dracut_modules_btrfs dracut_modules_dmraid dracut_modules_dmsquash-live dracut_modules_gensplash dracut_modules_lvm dracut_modules_mdraid dracut_modules_multipath dracut_modules_nbd dracut_modules_nfs dracut_modules_plymouth dracut_modules_syslog dracut_modules_crypt dracut_modules_crypt-gpg dracut_modules_crypt-loop dracut_modules_iscsi dracut_modules_systemd net
+sys-kernel/dracut device-mapper dracut_modules_biosdevname dracut_modules_btrfs dracut_modules_dmraid dracut_modules_dmsquash-live dracut_modules_gensplash dracut_modules_lvm dracut_modules_mdraid dracut_modules_multipath dracut_modules_nbd dracut_modules_nfs dracut_modules_plymouth dracut_modules_syslog dracut_modules_crypt dracut_modules_crypt-gpg dracut_modules_crypt-loop dracut_modules_iscsi 
 sys-kernel/genkernel cryptsetup crypt
 sys-kernel/genkernel-next cryptsetup crypt dmraid mdadm
 sys-kernel/linux-sabayon btrfs dmraid symlink grub iscsi mdadm luks lvm zfs plymouth

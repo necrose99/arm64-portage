@@ -1,6 +1,3 @@
-# required by dev-lang/php-7.2.19::gentoo
-# required by @__auto_slot_operator_replace_installed__ (argument)
->=app-eselect/eselect-php-0.9.5 apache2
-# required by dev-lang/php-7.2.19::gentoo[apache2]
-# required by @__auto_slot_operator_replace_installed__ (argument)
->=www-servers/apache-2.4.39 -threads
+# required by sys-libs/libunwind-1.4.0::gentoo[lzma]
+# required by sys-libs/libunwind (argument)
+>=app-arch/xz-utils-5.2.5 static-libs

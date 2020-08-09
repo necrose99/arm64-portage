@@ -1,6 +1,0 @@
-cross-arm7hf-unknown-linux-gnueabi/binutils arm -arm64 -~arm64
-cross-arm7hf-unknown-linux-gnueabi/gcc -*
-gcc-cross-arm7hf-unknown-linux-gnueabi/gcc-5.4.0-r4 * ~* **
-cross-arm7hf-unknown-linux-gnueabi/linux-headers arm -arm64 -~arm64
-cross-arm7hf-unknown-linux-gnueabi/glibc arm -arm64 -~arm64
-cross-arm7hf-unknown-linux-gnueabi/gdb arm ~arm -arm64 -~arm64

@@ -1,0 +1,34 @@
+ dev-libs/openssl asm  rfc3779  sctp  sslv3  tls-heartbeat zlib
+ 
+ dev-libs/libnfc readline usb pcsc-lite 
+ dev-libs/glib  utils systemtap fam dbus mime xattr
+ 
+ dev-libs/libpcre2 bzip2 jit pcre16 pcre32 static recursion-limit split-usr unicode zlib  pcre32 readline
+ 
+#dev-libs/efl nls lua physics tiff -hyphen -vnc scim -examples -static-libs  -pmaps  xpm -gnutls fontconfig wayland -docdev-libs
+#
+#dev-libs/efl sound ico  gstreamer v4l x drm  pulseaudio zeroconf drm xpresent pdf gif ssl webp
+#
+#dev-libs/efl  ibus  -glib -fbcon -tgv -dds -xcf xim  -tga   -json elibc_glibc -unwind  -mono -sdl -debug -postscript
+#
+#dev-libs/efl -vlc -psd  xine  -bmp system-lz4 -tslib -libressl elogind  -fribidi -raw -jpeg2k -connman  
+#
+#dev-libs/efl gles2-only split-usr -harfbuzz 
+dev-libs/efl lua -luajit -wayland webp scim  drm gles2-only  ssl  -systemd 
+## efl  is a pest add wanted feature or switch to wayland its a game of wack-amole.. 
+ 
+dev-libs/keybinder introspection lua
+
+
+dev-libs/protobuf zlib  cdda dbus pulseaudio udisks box  dropbox googledrive  lastfm mms -moodbar mtp -projectm seafile skydrive
+
+dev-libs/poco 7z cppparser crypto data file2pagecompiler iodbc json mariadb mongodb net odbc pagecompiler pdf sqlite ssl util xml zip 
+dev-libs/leveldb snappy tcmalloc 
+#drags in tcmalloc/dev-util/google-perftools /sys-libs/libunwind @sys-libs/libunwind-llvm is present till fixed... F no. 
+
+dev-libs/boost bzip2 icu lzma  nls python  threads tools  zlib context mpi numpy zstd
+
+dev-libs/nss cacet utils
+
+# selinux
+dev-libs/ustr static-libs ustr-import

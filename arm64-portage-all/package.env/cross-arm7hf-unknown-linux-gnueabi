@@ -1,5 +1,0 @@
-cross-arm7hf-unknown-linux-gnueabi/binutils cross-arm7hf-unknown-linux-gnueabi/binutils.conf
-cross-arm7hf-unknown-linux-gnueabi/gcc cross-arm7hf-unknown-linux-gnueabi/gcc.conf
-cross-arm7hf-unknown-linux-gnueabi/linux-headers cross-arm7hf-unknown-linux-gnueabi/linux-headers.conf
-cross-arm7hf-unknown-linux-gnueabi/glibc cross-arm7hf-unknown-linux-gnueabi/glibc.conf
-cross-arm7hf-unknown-linux-gnueabi/gdb cross-arm7hf-unknown-linux-gnueabi/gdb.conf

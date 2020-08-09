@@ -1,0 +1,4 @@
+sys-libs/zlib minizip
+sys-libs/db cxx  tcl   java  
+
+sys-libs/glibc systemtap audit caps mutilib compile-locales

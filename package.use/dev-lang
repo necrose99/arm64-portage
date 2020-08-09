@@ -1,0 +1,26 @@
+dev-lang/rust wasm clippy rustfmt miri 
+#dev-lang/rust system-llvm
+#dev-lang/rust parallel-compiler  nightly
+
+
+###PHP has quite slection // the opts.. 
+dev-lang/php cgi crypt ctype filter gd pcre session unicode cli xml zlib ffi exif acl apache2 bcmath berkdb bzip2 calendar cgi cjk cli ctype curl exif  ffi  fileinfo filter flatfile  
+#
+dev-lang/php fpm ftp gd gdbm gmp iconv
+#
+dev-lang/php imap inifile intl ipv6 json kerberos ldap mhash mysql mysqli nls odbc opcache pcntl pdo phar posix postgres readline session simplexml snmp soap sockets spell sqlite ssl 
+#
+dev-lang/php unicode webp* xml xmlreader xmlwriter xpm xslt  sysvipc tidy tokenizer
+##
+# eselect-php now contains fpm init script and apache stuff
+app-eselect/eselect-php fpm apache2
+##
+dev-lang/python sqlite xml
+##
+
+dev-lang/ruby ipv6 ssl threads truetype sodium ldap-sasl xmlrpc tokyocabinet
+
+
+dev-lang/ocaml ocamlopt emacs flambda latex spacetime xemacs
+#
+dev-lang/spidermonkey -test

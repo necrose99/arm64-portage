@@ -1,3 +1,10 @@
-# Enable the native arch as the default unicorn target
-# x86 supports both x86 and amd64
-dev-util/unicorn unicorn_targets_x86
+dev-util/catalyst ccache
+
+dev-util/unicorn python  unicorn_targets_aarch64 unicorn_targets_arm unicorn_targets_m68k unicorn_targets_mips 
+dev-util/unicorn unicorn_targets_sparc unicorn_targets_x86
+
+dev-util/glade webkit
+
+dev-util/catalyst system-bootloader ccache
+
+dev-util/cccc mfc

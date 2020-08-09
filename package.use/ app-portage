@@ -1,0 +1,5 @@
+app-portage/layman git sqlite cvs darcs g-sorcery gpg mercurial squashfs subversion sync-plugin-portage
+
+app-portage/g-sorcery git bson
+
+sys-apps/portage gentoo-dev 

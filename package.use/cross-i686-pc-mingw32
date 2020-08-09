@@ -1,4 +1,0 @@
-cross-i686-pc-mingw32/binutils -multilib
-cross-i686-pc-mingw32/w32api -selinux -multilib
-cross-i686-pc-mingw32/mingw-runtime -selinux -multilib
-cross-i686-pc-mingw32/gcc -sanitize -vtv -selinux -boundschecking -d -gcj -gtk -libffi -mudflap -objc -objc++ -objc-gc -multilib

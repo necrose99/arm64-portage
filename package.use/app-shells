@@ -1,0 +1,4 @@
+app-shells/zsh gdbm pcre unicode caps maildir 
+#
+app-shells/bash net nls readline afs bashlogger mem-scramble plugins
+# add mem-scramble afs pluins 

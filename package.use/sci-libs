@@ -1,0 +1,6 @@
+sci-libs/hdf5 -static-libs  -mpi cxx  zlib -threads -fortran hl szip
+sci-libs/hdf -static-libs  -mpi cxx  zlib -threads fortran  -szip
+sci-libs/netcdf szip hdf
+sci-libs/pcl opengl pcap png qhull qt5 usb vtk
+sci-libs/vtk  X imaging python qt5 rendering tcl theora tk boost ffmpeg R xdmf2 -all-modules
+sci-libs/volk orc

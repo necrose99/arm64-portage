@@ -1,0 +1,9 @@
+app-forensics/afflib qemu fuse
+app-forensics/sleuthkit aff ewf
+app-forensics/dff ewf
+app-forensics/sleuthkit ewf aff java postgres
+app-forensics/pdf-parser yara
+app-forensics/afflib fuse
+app-forensics/volatility yara disasm jsonschema 
+
+app-forensics/openscap acl ldap pcre perl python test xattr caps  gconf nss rpm sce selinux sql

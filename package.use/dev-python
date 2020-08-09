@@ -1,0 +1,8 @@
+dev-python/* -test
+## fuck circular deps 
+dev-python/wxpython webkit
+#
+dev-python/matplotlib cairo excel gtk3 qt5 tk wxwidgets 
+# dev-python/matplotlib latex # latter.
+
+dev-python/QtPy gui opengl printsupport svg designer webengine

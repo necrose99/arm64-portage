@@ -1,0 +1,2 @@
+dev-libs/openssl-compat asm bindist sslv3 tls-heartbeat zlib gmp kerberos rfc3779 sctp
+dev-libs/openssl  asm bindist tls-heartbeat zlib rfc3779 sctp sslv3 

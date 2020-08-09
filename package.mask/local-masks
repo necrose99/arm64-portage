@@ -1,0 +1,9 @@
+calamares/calamares::sabayon
+sys-devel/gcc::sabayon
+sys-devel/base-gcc::sabayon
+sys-libs/kpmcore::sabayon-distro
+### pentoo-core trys to drag this shi... to the party. 
+sys-apps/iucode_tool
+sys-firmware/intel-microcode
+
+x11-base/xorg-server::redcore

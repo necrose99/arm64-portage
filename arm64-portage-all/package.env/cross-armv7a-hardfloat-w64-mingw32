@@ -1,4 +1,0 @@
-cross-armv7a-hardfloat-w64-mingw32/binutils cross-armv7a-hardfloat-w64-mingw32/binutils.conf
-cross-armv7a-hardfloat-w64-mingw32/gcc cross-armv7a-hardfloat-w64-mingw32/gcc.conf
-cross-armv7a-hardfloat-w64-mingw32/mingw64-runtime cross-armv7a-hardfloat-w64-mingw32/mingw64-runtime.conf
-cross-armv7a-hardfloat-w64-mingw32/gdb cross-armv7a-hardfloat-w64-mingw32/gdb.conf

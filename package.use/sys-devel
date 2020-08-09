@@ -1,0 +1,25 @@
+sys-devel/binutils multitarget
+### CROSSDEV ,makes crossbuilding happen more offten & app-emulation/xen 
+## however xen is hit or miss on arm64. but building x86/am64 cross for metasploit... etc. we want. for veil etc.. 
+sys-devel/distcc  gtk zeroconf
+sys-devel/make guile
+
+### GCC 
+sys-devel/gcc cxx fortran ada nls nptl openmp pch pie sanitize ssp vtv ada lto d hardened go graphite multilib objc objc++ objc-gc pgo systemtap zstd valgrind
+
+########
+sci-mathematics/z3 isabelle 
+######@ llvm CLANG opts 
+sys-devel/llvm gold libedit libffi ncurses xar xml z3 
+
+
+sys-devel/clang-runtime libcxx sanitize
+sys-libs/compiler-rt-sanitizers sanitize
+sys-devel/clang default-compiler-rt default-libcxx
+
+
+
+
+ dev-libs/cyrus-sasl openldap berkdb gdbm kerberos pam sqlite ssl 
+ 
+ sys-devel/distcc gtk ipv6 zeroconf gssapi

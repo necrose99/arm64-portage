@@ -1,1 +1,0 @@
-ipv6 static  -livecd make-symlinks math mdev pam -savedconfig selinux sep-usr syslog -systemd"

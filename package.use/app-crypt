@@ -1,0 +1,14 @@
+# requirements of app-crypt/seahorse
+app-crypt/pinentry gnome-keyring
+#
+app-crypt/johntheripper-jumbo pcap mpi opencl
+app-crypt/gcr vala
+
+app-crypt/gnupg -static bzip2 smartcard
+# required by app-backup/deja-dup
+app-crypt/libsecret vala
+app-crypt/mit-krb5 krb4 openldap
+
+app-crypt/pinentry gtk qt5
+app-crypt/qca gpg
+app-crypt/kbfs git

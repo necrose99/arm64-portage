@@ -1,2 +1,0 @@
-cross-amd64-linux-gnu/binutils -multilib
-cross-amd64-linux-gnu/linux-headers -selinux headers-only -multilib

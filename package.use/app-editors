@@ -1,0 +1,6 @@
+app-editors/xemacs athena  Xaw3d nas postgres -motif
+# atm motif no building
+ app-editors/emacs  toolkit-scroll-bars xft
+ 
+ app-editors/leafpad emacs 
+ ## add emacs compat..

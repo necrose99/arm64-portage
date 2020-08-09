@@ -1,5 +1,0 @@
-#########################################################################
-# $Header: /etc/portage/package.use/package.use created by Porthole's set_config.py v: 1.1, 2017/05/15 20:27:13, Exp $
-
-cross-aarch64-unknown-linux-gnu/gcc awt objc objc-gc objc++ go graphite cilk jit sanitize vtv pie ssp pch
-cross-aarch64-unknown-linux-gnu/gdb client lzma multitarget server python_targets_python3_5 python_single_target_python2_7 python_single_target_python3_5

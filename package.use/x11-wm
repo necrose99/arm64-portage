@@ -1,0 +1,5 @@
+x11-wm/lumina desktop-utils 
+x11-wm/enlightenment acpi bluetooth nls pam policykit udisks wifi geolocationy
+#-connman -doc -geolocation -wayland -xwayland" 
+x11-wm/fluxbox  imlib nls slit systray toolbar truetype xinerama vim-syntax -bidi
+x11-wm/windowmaker gif jpeg nls png tiff webp xinerama xpm imagemagick xrandr

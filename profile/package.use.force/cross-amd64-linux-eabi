@@ -1,0 +1,4 @@
+cross-amd64-linux-eabi/binutils multilib
+cross-amd64-linux-eabi/gcc multilib
+cross-amd64-linux-eabi/newlib multilib
+cross-amd64-linux-eabi/gdb multilib

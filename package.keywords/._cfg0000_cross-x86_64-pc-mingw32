@@ -1,9 +1,0 @@
-cross-x86_64-pc-mingw32/binutils amd64 -arm64 -~arm64
-cross-x86_64-pc-mingw32/gcc amd64 -arm64 -~arm64
-cross-x86_64-pc-mingw32/mingw64-runtime amd64 -arm64 -~arm64
-cross-x86_64-pc-mingw32/gdb amd64 ~amd64 -arm64 -~arm64
-# required by app-crypt/kbfs-9999::gentoo
-# required by app-crypt/kbfs (argument)
-=app-crypt/keybase-9999 **
-# required by app-crypt/kbfs (argument)
-=app-crypt/kbfs-9999 **

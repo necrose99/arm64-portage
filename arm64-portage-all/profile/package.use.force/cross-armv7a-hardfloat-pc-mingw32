@@ -1,5 +1,0 @@
-cross-armv7a-hardfloat-pc-mingw32/binutils -multilib
-cross-armv7a-hardfloat-pc-mingw32/gcc -multilib
-cross-armv7a-hardfloat-pc-mingw32/w32api -multilib
-cross-armv7a-hardfloat-pc-mingw32/mingw-runtime -multilib
-cross-armv7a-hardfloat-pc-mingw32/gdb -multilib

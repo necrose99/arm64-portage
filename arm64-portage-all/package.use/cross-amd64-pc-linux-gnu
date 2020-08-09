@@ -1,4 +1,0 @@
-cross-amd64-pc-linux-gnu/binutils -multilib
-cross-amd64-pc-linux-gnu/linux-headers -selinux -multilib
-cross-amd64-pc-linux-gnu/glibc -selinux -multilib
-cross-amd64-pc-linux-gnu/gcc -sanitize -vtv -selinux -boundschecking -d -gcj -gtk -libffi -mudflap -objc -objc++ -objc-gc -multilib

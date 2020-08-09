@@ -1,3 +1,47 @@
-# required by dev-lang/php-7.2.19::gentoo
-# required by @__auto_slot_operator_replace_installed__ (argument)
->=app-eselect/eselect-php-0.9.5 apache2
+# required by x11-libs/wxGTK-3.0.4-r302::gentoo
+# required by net-ftp/filezilla-3.48.1::gentoo
+# required by filezilla (argument)
+>=net-libs/webkit-gtk-2.28.2 -wayland
+# required by virtual/lapacke-3.8::gentoo
+# required by lapacke (argument)
+>=sci-libs/lapack-3.8.0-r1 lapacke
+# required by xfce-base/libxfce4ui-4.14.1::gentoo
+# required by xfce-base/libxfce4ui (argument)
+>=xfce-base/libxfce4util-4.15.1 introspection
+# required by kde-plasma/kwin-5.19.3::gentoo
+# required by kde-plasma/plasma-desktop-5.19.3::gentoo
+# required by kde-plasma/plasma-meta-5.19.3::gentoo
+# required by /packages/kde-plasma/plasma-meta-5.19.3.tbz2 (argument)
+>=kde-frameworks/kitemmodels-5.71.0 qml
+# required by x11-wm/enlightenment-0.24.1::gentoo[wayland]
+# required by enlightenment-0.24.1.ebuild (argument)
+>=dev-libs/efl-1.24.3 wayland
+# required by app-editors/xemacs-21.5.34-r5::gentoo[motif]
+# required by app-xemacs/xemacs-base-2.46::gentoo
+>=x11-libs/motif-2.3.8-r1 xft
+# required by net-wireless/hostapd-2.9-r1::pentoo[-libressl,-internal-tls]
+# required by pentoo/pentoo-wireless-2020.2::pentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/openssl-1.1.1g -bindist
+# required by dev-python/xapp-2.0.1::gentoo
+# required by gnome-extra/cinnamon-screensaver-4.4.1::gentoo[python_single_target_python3_7]
+# required by gnome-extra/cinnamon-screensaver (argument)
+>=x11-libs/xapps-1.8.4 introspection
+# required by sys-cluster/ceph-14.2.9-r1::gentoo
+# required by net-analyzer/rrdtool-1.7.2-r1::gentoo[rados]
+# required by dev-ruby/rrdtool-bindings-1.7.2::gentoo
+>=dev-libs/leveldb-1.20 tcmalloc
+# required by net-wireless/hostapd-2.9-r1::pentoo[-libressl,-internal-tls]
+# required by pentoo/pentoo-wireless-2020.2::pentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/openssl-1.1.1g -bindist
+# required by net-wireless/hostapd-2.9-r1::pentoo[-libressl,-internal-tls]
+# required by pentoo/pentoo-wireless-2020.2::pentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/openssl-1.1.1g -bindist
+# required by sci-libs/pcl-1.11.0::gentoo[vtk]
+# required by pcl-1.11.0.ebuild (argument)
+>=sci-libs/vtk-8.2.0 imaging

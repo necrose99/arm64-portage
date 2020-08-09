@@ -1,5 +1,0 @@
-cross-gcc-5.4.0-r4/binutils * ~* -arm64 -~arm64
-cross-gcc-5.4.0-r4/gcc -*
--scross-gcc-5.4.0-r4/gcc- * ~* **
-cross-gcc-5.4.0-r4/mingw64-runtime * ~* -arm64 -~arm64
-cross-gcc-5.4.0-r4/gdb * ~* -arm64 -~arm64

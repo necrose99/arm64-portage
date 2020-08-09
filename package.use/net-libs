@@ -1,0 +1,15 @@
+ net-libs/libpcap netlink rdma remote bluetooth dbus usb
+ net-libs/libssh sftp zlib   gcrypt  gssapi  pcap  server
+dev-libs/openssl asm rfc3779 sctp sslv3 tls-heartbeat zlib bindist samba redis iodbc pcap fasteap
+#$ bindist
+
+# 
+net-libs/libvncserver 24bpp filetransfer gnutls ipv6 jpeg lzo png ssl threads zlib gcrypt sasl 
+
+net-libs/ldns dane ecdsa python ed25519 ed448 gost vim-syntax
+net-libs/rabbitmq-c -test
+
+net-libs/libbtbb extras wireshark-plugins
+
+net-libs/neon expat  gnutls  kerberos  nls pkcs11  ssl zlib libproxy
+

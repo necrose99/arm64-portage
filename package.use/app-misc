@@ -1,0 +1,5 @@
+app-misc/lirc X devinput gtk uinput usb audio ftdi inputlirc 
+
+app-misc/freediag gui
+
+app-misc/pax-utils caps python seccomp

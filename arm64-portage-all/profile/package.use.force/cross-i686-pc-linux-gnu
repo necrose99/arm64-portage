@@ -1,5 +1,0 @@
-cross-i686-pc-linux-gnu/binutils -multilib
-cross-i686-pc-linux-gnu/gcc -multilib
-cross-i686-pc-linux-gnu/linux-headers -multilib
-cross-i686-pc-linux-gnu/glibc -multilib
-cross-i686-pc-linux-gnu/gdb -multilib

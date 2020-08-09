@@ -1,2 +1,46 @@
-media-libs/harfbuzz icu
-media-libs/coin bzip2 doc openal zlib javascript simage
+media-libs/libsdl aalib dga xinerama
+#
+media-libs/aalib slang x gpm
+#
+media-libs/faad2 digitalradio
+#
+media-libs/vidstab openmp
+#
+media-video/vcdimager xml 
+#
+media-libs/libmetalink xml
+#
+media-libs/libwmf expat
+#
+media-libs/gd webp
+#
+media-libs/libwmf  java gdk-pixbuf  devil
+#
+media-libs/libpng apng
+#
+media-libs/libbluray fontconfig truetype xml aacs bdplus java utils
+#
+media-libs/libbdplus aacs
+#
+media-libs/vulkan-loader X wayland layers
+#
+media-libs/speex utils
+#
+
+
+media-libs/libsdl2 X alsa dbus haptic jack joystick opengl pulseaudio sound threads udev video wayland xinerama gles2 -kms -libsamplerate -nas -oss  -tslib vulkan xscreensaver  libsamplerate
+media-libs/libsdl2 video_cards_vc4 video_cards_panfrost video_cards_vdpau  video_cards_neon video_cards_mali video_cards_*
+
+media-libs/freetype adobe-cff bzip2 cleartype_hinting png  X  brotli fontforge harfbuzz infinality
+
+media-libs/phonon pulseaudio vlc designer gstreamer
+media-libs/gegl cairo lcms openexr pdf raw svg tiff v4l vala webp ffmpeg introspection lensfun sdl umfpack
+
+media-libs/x265 10bit 12bit numa pic
+
+ media-libs/lv2 plugins
+ 
+ media-libs/opencv contrib eigen features2d ffmpeg gphoto2 jpeg jpeg2k lapack openexr opengl openmp png python qt5 tiff v4l vaapi webp xine pch vtk gstreamer
+ #gtk3 qt5 or /gtk3 wont mix.. sci-libs/pcl=vtk  sci-libs/vtk
+ 
+ media-libs/gst-plugins-base X alsa egl gles2 introspection nls ogg opengl pango theora vorbis wayland gbm ivorbis orc  

@@ -1,4 +1,0 @@
-cross-gcc-5.4.0-r4/binutils cross-gcc-5.4.0-r4/binutils.conf
-cross-gcc-5.4.0-r4/gcc cross-gcc-5.4.0-r4/gcc.conf
-cross-gcc-5.4.0-r4/mingw64-runtime cross-gcc-5.4.0-r4/mingw64-runtime.conf
-cross-gcc-5.4.0-r4/gdb cross-gcc-5.4.0-r4/gdb.conf

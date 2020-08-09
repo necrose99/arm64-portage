@@ -1,1 +1,1 @@
-sys-kernel/linux-firmware freedist linux-firmware no-source-code
+sys-kernel/linux-firmware freedist linux-fw-redistributable linux-firmware no-source-code

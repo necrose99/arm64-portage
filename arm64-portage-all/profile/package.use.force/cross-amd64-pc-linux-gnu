@@ -1,5 +1,0 @@
-cross-amd64-pc-linux-gnu/binutils -multilib
-cross-amd64-pc-linux-gnu/gcc -multilib
-cross-amd64-pc-linux-gnu/linux-headers -multilib
-cross-amd64-pc-linux-gnu/glibc -multilib
-cross-amd64-pc-linux-gnu/gdb -multilib

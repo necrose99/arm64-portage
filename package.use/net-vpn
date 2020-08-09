@@ -1,0 +1,3 @@
+net-vpn/openconnect gnutls lz4 nls smartcard  gssapi  stoken 
+
+net-vpn/tor caps lzma man scrypt seccomp server tor-hardening zstd

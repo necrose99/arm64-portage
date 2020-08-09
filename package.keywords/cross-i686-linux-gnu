@@ -1,5 +1,0 @@
-cross-i686-linux-gnu/binutils x86 ~x86 -arm64 -~arm64
-cross-i686-linux-gnu/gcc x86 ~x86 -arm64 -~arm64
-cross-i686-linux-gnu/linux-headers x86 ~x86 -arm64 -~arm64
-cross-i686-linux-gnu/glibc x86 ~x86 -arm64 -~arm64
-cross-i686-linux-gnu/gdb x86 ~x86 -arm64 -~arm64

@@ -1,0 +1,9 @@
+net-wireless/wpa_supplicant bindist dbus fils hs2-0 mbo mesh qt5 readline ap broadcom-sta eap-sim eapol-test fasteap macsec p2p privsep ps3 selinux smartcard tdls -uncommon-eap-types wimax wps 
+
+net-wireless/bluez deprecated btpclient experimental extra-tools midi user-session test-programs 
+#
+net-wireless/blue_hydra ubertooth development
+net-wireless/soapysdr  bladerf hackrf rtlsdr uhd
+
+net-wireless/hostapd wpe
+

@@ -1,4 +1,0 @@
-cross-armv7a-hardfloat/binutils cross-armv7a-hardfloat/binutils.conf
-cross-armv7a-hardfloat/gcc cross-armv7a-hardfloat/gcc.conf
-cross-armv7a-hardfloat/linux-headers cross-armv7a-hardfloat/linux-headers.conf
-cross-armv7a-hardfloat/gdb cross-armv7a-hardfloat/gdb.conf

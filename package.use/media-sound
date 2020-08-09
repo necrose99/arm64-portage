@@ -1,0 +1,3 @@
+ media-sound/sox alsa encode flac mad ogg openmp opus png pulseaudio wavpack twolame id3tag sndfile
+ 
+ media-sound/jack2 alsa classic dbus opus pam readline  libsamplerate  metadata  sndfile

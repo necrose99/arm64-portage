@@ -1,0 +1,5 @@
+tar -zcvf package.mask.tar.gz  package.mask
+
+unpack after crossdev.... 
+
+however crossdev will bicker if here.. 

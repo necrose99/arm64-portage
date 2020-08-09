@@ -1,0 +1,7 @@
+sys-apps/pcsc-lite "policykit udev embedded 
+# udev makes redundent libusb
+sys-apps/coreutils -kill
+#### warning 3 packages with KILL or p-kill util , sys-process... 
+sys-apps/coreutils aclgmp nsl xattr split-user  
+#-hostname  -multicall (-selinux) -static -test -vanilla
+sys-apps/busybox ipv6 static make-symlinks math  savedconfig  sep-usr

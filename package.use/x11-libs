@@ -1,0 +1,3 @@
+x11-libs/gtksourceview vala glade introspection
+
+x11-libs/gtk+ X broadway colord cups introspection vim-syntax wayland xinerama cloudprint

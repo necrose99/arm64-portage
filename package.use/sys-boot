@@ -1,0 +1,16 @@
+# Arm64 sys-boot flags
+sys-boot/grub sdl  device-mapper   efiemu
+sys-boot/grub fonts mount nls static sdl test themes truetype libzfs 
+sys-boot/grub grub_platforms_efi-32 grub_platforms_efi-64  grub_platforms_efi-aarch64 grub_platforms_efi-arm grub_platforms_emu
+
+# UBOOT Critical on arm64...  however hooked. 
+#sys-boot/grub  grub_platforms_uboot
+#sys-boot/grub grub_platforms_ieee1275 grub_platforms_loongson
+#sys-boot/grub grub_platforms_xen grub_platforms_xen-32  
+## FAILS sys-boot/grub grub_platforms_pc grub_platforms_qemu grub_platforms_qemu-mips grub_platforms_multiboot grub_platforms_qemu
+# PC WOEUSB or making sticks for windows on arm/pc devices  However no Emulated fuction calls for it PC on arm64 is a FAIL.
+
+## sys-boot/woeusb
+sys-boot/woeusb -minimal
+#
+sys-boot/refind ext2 ext4 gnuefi hfs iso9660 ntfs reiserfs btrfs

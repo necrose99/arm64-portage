@@ -1,6 +1,24 @@
-# required by dev-lang/php-7.2.19::gentoo
-# required by @__auto_slot_operator_replace_installed__ (argument)
->=app-eselect/eselect-php-0.9.5 apache2
-# required by dev-lang/php-7.2.19::gentoo[apache2]
-# required by @__auto_slot_operator_replace_installed__ (argument)
->=www-servers/apache-2.4.39 -threads
+# required by x11-libs/wxGTK-3.0.4-r302::gentoo
+# required by net-ftp/filezilla-3.48.1::gentoo
+# required by filezilla (argument)
+>=net-libs/webkit-gtk-2.28.2 -wayland
+# required by virtual/lapacke-3.8::gentoo
+# required by lapacke (argument)
+>=sci-libs/lapack-3.8.0-r1 lapacke
+# required by xfce-base/libxfce4ui-4.14.1::gentoo
+# required by xfce-base/libxfce4ui (argument)
+>=xfce-base/libxfce4util-4.15.1 introspection
+# required by kde-plasma/kwin-5.19.3::gentoo
+# required by kde-plasma/plasma-desktop-5.19.3::gentoo
+# required by kde-plasma/plasma-meta-5.19.3::gentoo
+# required by /packages/kde-plasma/plasma-meta-5.19.3.tbz2 (argument)
+>=kde-frameworks/kitemmodels-5.71.0 qml
+# required by x11-wm/enlightenment-0.24.1::gentoo[wayland]
+# required by enlightenment-0.24.1.ebuild (argument)
+>=dev-libs/efl-1.24.3 wayland
+# required by app-editors/xemacs-21.5.34-r5::gentoo[motif]
+# required by app-xemacs/xemacs-base-2.46::gentoo
+>=x11-libs/motif-2.3.8-r1 xft
+# required by app-portage/kuroo-0.90.5_p20180410::gentoo
+# required by kuroo-0.90.5_p20180410.ebuild (argument)
+>=kde-plasma/kde-cli-tools-9999 kdesu

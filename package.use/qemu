@@ -1,13 +1,41 @@
+########### app-emulation/qemu some flags orgiannly borrowed from Sabayon Linux , Gentoo Variant , then tweaked to likekings. or more TARGETS added.. 
+
 app-emulation/qemu -glusterfs nfs  fdt spice -gtk  xattr usbredir vnc virgl capstone sdl pin-upstream-blobs png pulseaudio ssh snappy  curl  numa sasl iscsi
-app-emulation/qemu    systemtap curl  sdl2 
+app-emulation/qemu    systemtap curl  sdl2 jpeg filecaps seccomp glusterfs usbredir nfs pin-upstream-blobs ssh xfs split-usr xkb alsa  usb opengl fdt aio plugins
 ## desirable however comes with more thorns to enable for now.. 
 #
-app-emulation/qemu     -vte -virtfs  -snappy -rdb 
+app-emulation/qemu     -vte -virtfs  snappy rdb  lzo capstone  vnc bzip2 sasl  zstd python caps gtk smartcard rbd ncurses accessibility vhost-net 
 # ceph = rdb google-pref no comp.. 
-## virtfs snappy would be also usefull  bud force static deps.. 
+## app-emulation/qemu -jemalloc GOOGLE-perf & libunwind vs libunwind-LLVM
+## virtfs snappy would be also usefull  bud force static deps..  - -xen  -infiniband -iscsi -tci -doc -systemtap -plugins
 ##
-## for now on arm64 glusterfs is being a pest. as is google profile tool compile error.  
-PYTHON_TARGETS="python2_7 python3_4 python3_5 python3_6 python3_7" 
-QEMU_SOFTMMU_TARGETS="aarch64 aarch64_be  arm cris m68k microblaze mips mips64 mips64el mipsel ppc ppc64 ppcemb sh4 sh4eb sparc sparc64 -alpha -hppa i386 -lm32 -microblazeel -moxie -nios2 -or1k riscv32 riscv64 -s390x -tricore -unicore32 x86_64  -xtensa -xtensaeb" 
+## for now on arm64 glusterfs is being a pest. as is google profile tool compile error. 
+ 
+## python TARGETS
+app-emulation/qemu python_targets_python3_8  python_targets_python3_7 python_targets_python3_6
 
-QEMU_USER_TARGETS="aarch64 alpha arm armeb cris i386 m68k microblaze mips mipsel ppc ppc64 ppc64abi32 sh4 sh4eb sparc sparc32plus sparc64 x86_64 aarch64_be -hppa -microblazeel mips64 mips64el mipsn32 mipsn32el -nios2 -or1k ppc64le -riscv32 -riscv64 -s390x -tilegx -xtensa -xtensaeb" 
+
+#QEMU_USER_TARGETS expansions 
+app-emulation/qemu  qemu_user_targets_microblaze qemu_user_targets_or1k  qemu_user_targets_sh4eb qemu_user_targets_aarch64_be qemu_user_targets_mips qemu_user_targets_sparc32plus
+app-emulation/qemu  qemu_user_targets_arm qemu_user_targets_ppc64le qemu_user_targets_mipsn32 qemu_user_targets_i386 qemu_user_targets_nios2  qemu_user_targets_sparc64 
+app-emulation/qemu  qemu_user_targets_riscv64 qemu_user_targets_mips64el qemu_user_targets_x86_64 qemu_user_targets_alpha   qemu_user_targets_s390x   qemu_user_targets_mipsel qemu_user_targets_m68k qemu_user_targets_xtensa
+app-emulation/qemu qemu_user_targets_xtensaeb qemu_user_targets_armeb qemu_user_targets_ppc qemu_user_targets_cris   qemu_user_targets_microblazeel  qemu_user_targets_mips64
+app-emulation/qemu  qemu_user_targets_sh4 qemu_user_targets_tilegx qemu_user_targets_mipsn32el  qemu_user_targets_ppc64  qemu_user_targets_ppc64abi32 
+
+#QEMU_SOFTMMU_TARGETS expansions. 
+app-emulation/qemu qemu_softmmu_targets_cris
+app-emulation/qemu  qemu_softmmu_targets_nios2 qemu_softmmu_targets_sparc  qemu_softmmu_targets_moxie qemu_softmmu_targets_ppc qemu_softmmu_targets_unicore32 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_microblazeel
+app-emulation/qemu  qemu_softmmu_targets_mips64el qemu_softmmu_targets_ppc64 qemu_softmmu_targets_or1k qemu_softmmu_targets_sparc64 qemu_softmmu_targets_i386 qemu_softmmu_targets_sh4eb qemu_softmmu_targets_tricore
+app-emulation/qemu qemu_softmmu_targets_riscv32 qemu_softmmu_targets_s390x  qemu_softmmu_targets_microblaze qemu_softmmu_targets_mipsel qemu_softmmu_targets_xtensa qemu_softmmu_targets_xtensaeb 
+app-emulation/qemu  qemu_softmmu_targets_sh4  qemu_softmmu_targets_mips64   qemu_softmmu_targets_m68k qemu_softmmu_targets_mips qemu_softmmu_targets_hppa qemu_softmmu_targets_x86_64
+app-emulation/qemu qemu_softmmu_targets_lm32   qemu_softmmu_targets_rx qemu_softmmu_targets_riscv64  qemu_softmmu_targets_riscv32 qemu_softmmu_targets_hppa
+
+
+### emerge notations 
+#QEMU_SOFTMMU_TARGETS="aarch64 aarch64_be  arm cris m68k microblaze mips mips64 mips64el mipsel ppc ppc64 ppcemb sh4 sh4eb sparc sparc64 -alpha -hppa i386 -lm32 -microblazeel -moxie -nios2 -or1k riscv32
+# riscv64 -s390x -tricore 
+#-unicore32 x86_64  -xtensa -xtensaeb" 
+
+
+
+#QEMU_USER_TARGETS="aarch64 alpha arm armeb cris i386 m68k microblaze mips mipsel ppc ppc64 ppc64abi32 sh4 sh4eb sparc sparc32plus sparc64 x86_64 aarch64_be -hppa -microblazeel mips64 mips64el mipsn32 mipsn32el -nios2 -or1k ppc64le ###-riscv32 -riscv64 -s390x -tilegx -xtensa -xtensaeb" 

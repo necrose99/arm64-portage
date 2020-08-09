@@ -1,4 +1,0 @@
-cross-arm64-w64-mingw/binutils cross-arm64-w64-mingw/binutils.conf
-cross-arm64-w64-mingw/gcc cross-arm64-w64-mingw/gcc.conf
-cross-arm64-w64-mingw/mingw64-runtime cross-arm64-w64-mingw/mingw64-runtime.conf
-cross-arm64-w64-mingw/gdb cross-arm64-w64-mingw/gdb.conf

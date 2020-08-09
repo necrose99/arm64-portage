@@ -1,0 +1,8 @@
+media-gfx/imagemagick X bzip2 cxx jpeg lcms lzma openexr openmp pango perl png svg tiff truetype wmf xml zlib corefonts 
+#
+media-gfx/imagemagick  djvu fftw fontconfig fpx graphviz hdri heif jbig jpeg2k -lqr opencl postscript q32  raw webp
+
+
+media-gfx/graphviz X cairo gtk guile nls pdf perl postscript python qt5 ruby svg tcl 
+## few opts latter emerge cycles.
+media-gfx/graphviz guile tcl ruby postscript tcl lasi gts java

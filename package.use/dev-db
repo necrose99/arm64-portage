@@ -1,0 +1,4 @@
+dev-db/opendbx  mysql sqlite firebird postgres
+dev-db/sqlite  securedeleate icu readline secure-delete tcl tools
+
+dev-db/sqlitebrowser -test

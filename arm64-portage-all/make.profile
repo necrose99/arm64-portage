@@ -1,1 +1,0 @@
-../../var/db/repos/gentoo/profiles/default/linux/arm64/17.0/desktop

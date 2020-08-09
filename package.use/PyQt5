@@ -1,0 +1,5 @@
+dev-python/PyQt5 bluetooth dbus designer examples gui multimedia network opengl printsupport ssl 
+#
+dev-python/PyQt5 positioning sensors serialport sql  webchannel webkit websockets x11extras xmlpatterns 
+# 
+dev-python/PyQt5 svg widgets declarative  help location networkauth -gles2-only

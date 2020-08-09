@@ -1,3 +1,0 @@
-sys-firmware/b43-firmware * ~*
-# required by b43-firmware
-net-wireless/b43-fwcutter *

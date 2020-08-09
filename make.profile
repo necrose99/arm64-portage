@@ -1,1 +1,1 @@
-../../usr/portage/profiles/default/linux/arm64/17.0/desktop/systemd
+../../var/db/repos/genpi64/profiles/default/linux/arm64/17.0/desktop/genpi64

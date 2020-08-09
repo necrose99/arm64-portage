@@ -1,0 +1,4 @@
+sys-cluster/ceph cephfs kerberos ldap mgr numa openssl radosgw ssl tcmalloc xfs fuse 
+sys-cluster/ceph 
+#-babeltrace -custom-cflags -diskprediction (-dpdk) (-fuse) -grafana -jemalloc -kafka -libressl -lttng -pmdk -rabbitmq -rbd-rwl 
+# -spdk -system-boost -systemd -test -uring (-zfs)

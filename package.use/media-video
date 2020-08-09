@@ -1,0 +1,20 @@
+media-video/mplayer X a52 alsa bidi bluray cddb cdio dga dts dv  enca encode gsm iconv ipv6 jack joystick jpeg libass live lzo mad mng mp3 network openal opengl
+#
+media-video/mplayer speex theora  truetype unicode v4l vorbis x264 xinerama xscreensaver xv xvid samba twolame dvb vdpau radio pvr tga tremor lirc -dvd -dvdnav
+#
+media-video/mplayer aalib cdparanoia cpudetection  faac dga md5sum libcaca libmpeg2 rtmp zoran vidix yuv4mpeg sdmenu png pulseaudio rar sdl shm faad -fbcon ftp
+#
+ media-video/ffmpeg v4l2m2m-fix vaapi vpx fontconfig librtmp openh264 libaom lzma  contribxfeatures2d gdal tesseract
+
+###### ffmpeg 
+media-video/ffmpeg libdrm libcca twolame wavpack bluray open264 snappy vulkan  imagemagick vcd vidix libilbc pic dvb dxr3 gtk vtk -gtk3 digitalradio qt5 vdpau vpx ladspa bs2b vtk srt opencvapps java zvbi contribhdf contribcvv  
+media-video/ffmpeg vdpau vpx zeromq jpeg2k libxml2 flite  chromaprint cdio libsoxr modplug fdk ssh zvbi amrenc appkit dav1d vidstab zvbi kvazaar libcaca libass libaribb24   fribidi zimg gcrypt cxx lapack bs2b samba vdpau css slang vaapi
+#
+#
+virtual/ffmpeg encode gsm mp3 opus speex theora truetype x264 jpeg2k -libav sdl vaapi vdpau openssl librtmp
+virtual/ffmpeg threads ogg vhook faac faad  amr cpudetection vpx jpeg2k libv4l fontconfig modplug openh264 twolame
+
+media-video/pipewire X bluetooth ffmpeg jack pulseaudio gstreamer systemd vulkan
+
+
+media-plugins/grilo-plugins flickr gnome-online-accounts tracker youtube chromaprint daap freebox lua thetvdb  upnp-av 

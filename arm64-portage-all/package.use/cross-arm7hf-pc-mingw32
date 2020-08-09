@@ -1,4 +1,0 @@
-cross-arm7hf-pc-mingw32/binutils -selinux -multilib
-cross-arm7hf-pc-mingw32/w32api -selinux -multilib
-cross-arm7hf-pc-mingw32/mingw-runtime -selinux -multilib
-cross-arm7hf-pc-mingw32/gcc -selinux -boundschecking -d -gcj -gtk -libffi -mudflap -objc -objc++ -objc-gc -multilib

@@ -1,3 +1,36 @@
-# required by dev-lang/php-7.2.19::gentoo
-# required by @__auto_slot_operator_replace_installed__ (argument)
->=app-eselect/eselect-php-0.9.5 apache2
+# required by media-sound/gnome-music-3.34.6::gentoo
+# required by gnome-base/gnome-extra-apps-3.34.4::gentoo[tracker]
+# required by gnome-base/gnome-3.34.4::gentoo[extras]
+# required by gnome (argument)
+>=media-plugins/grilo-plugins-0.3.11 tracker
+# required by media-gfx/gnome-photos-3.34.1::gentoo
+# required by gnome-base/gnome-extra-apps-3.34.4::gentoo[tracker]
+# required by gnome-base/gnome-3.34.4::gentoo[extras]
+# required by gnome (argument)
+>=media-libs/gegl-0.4.24 raw
+# required by media-gfx/gnome-photos-3.34.1::gentoo
+# required by gnome-base/gnome-extra-apps-3.34.4::gentoo[tracker]
+# required by gnome-base/gnome-3.34.4::gentoo[extras]
+# required by gnome (argument)
+>=dev-libs/libgdata-0.17.12 gnome-online-accounts
+# required by media-video/cheese-3.34.0-r1::gentoo
+# required by gnome-base/gnome-extra-apps-3.34.4::gentoo
+# required by gnome-base/gnome-3.34.4::gentoo[extras]
+# required by gnome (argument)
+>=media-libs/gst-plugins-base-1.16.2 theora
+# required by gnome-base/gnome-shell-3.34.5::gentoo
+# required by x11-terms/gnome-terminal-3.34.2::gentoo[gnome-shell]
+# required by gnome-base/gnome-core-apps-3.34.4::gentoo
+# required by gnome-base/gnome-3.34.4::gentoo
+# required by gnome (argument)
+>=gnome-base/gnome-control-center-3.34.5-r1 networkmanager
+# required by gnome-extra/gnome-contacts-3.34.1::gentoo
+# required by gnome-base/gnome-core-apps-3.34.4::gentoo
+# required by gnome-base/gnome-3.34.4::gentoo
+# required by gnome (argument)
+>=dev-libs/folks-0.13.1 eds
+# required by gnome-extra/gnome-contacts-3.34.1::gentoo
+# required by gnome-base/gnome-core-apps-3.34.4::gentoo
+# required by gnome-base/gnome-3.34.4::gentoo
+# required by gnome (argument)
+>=gnome-extra/evolution-data-server-3.36.4 vala

@@ -1,0 +1,4 @@
+sys-cluster/glusterfs georeplication ipv6 libtirpc syslog xml  emacs fuse rsyslog -jemalloc
+#
+#
+sys-cluster/ceph fuse dpdk  diskprediction rabbitmq zfs radosgw -python_targets_python3_8 -jemalloc vim-syntax

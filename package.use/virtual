@@ -1,0 +1,2 @@
+virtual/mysql embedded
+virtual/blas eselect-ldso

@@ -1,5 +1,0 @@
-cross-arm64-multilib-linux-gnueabi/binutils arm ~arm -arm64 -~arm64
-cross-arm64-multilib-linux-gnueabi/gcc arm ~arm -arm64 -~arm64
-cross-arm64-multilib-linux-gnueabi/linux-headers arm ~arm -arm64 -~arm64
-cross-arm64-multilib-linux-gnueabi/glibc arm ~arm -arm64 -~arm64
-cross-arm64-multilib-linux-gnueabi/gdb arm ~arm -arm64 -~arm64

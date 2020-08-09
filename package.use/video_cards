@@ -1,0 +1,19 @@
+#VIDEO_CARDS="nouveau fglrx nvidia panfrost vc4 iris freedreno tegra intel vivante radeon lima exynos"
+
+*/* video_cards_vc4
+#rpi
+*/* video_cards_mali
+*/* video_cards_bifrost
+*/* video_cards_panfrost
+# rock64 / etc. 
+
+*/* video_cards_nouvea
+*/* video_cards_nvidia
+*/* video_cards_tegra
+# emore likly nouvea or tegra 
+
+*/* video_cards_exynos
+ 
+*/* video_cards_fglrx
+*/* video_cards_freedreno
+*/* video_cards_lima

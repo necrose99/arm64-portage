@@ -1,0 +1,4 @@
+xfce-base/libxfce4ui startup-notification vala  glade  introspection  libgtop 
+xfce-base/* introspection vala
+
+x11-base/xorg-server elogind kdrive* libglvnd suid udev wayland xorg xvfb -dmx  ipv6 -libressl  xcsecurity xephyr xnest

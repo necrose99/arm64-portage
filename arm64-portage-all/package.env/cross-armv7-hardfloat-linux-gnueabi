@@ -1,5 +1,0 @@
-cross-armv7-hardfloat-linux-gnueabi/binutils cross-armv7-hardfloat-linux-gnueabi/binutils.conf
-cross-armv7-hardfloat-linux-gnueabi/gcc cross-armv7-hardfloat-linux-gnueabi/gcc.conf
-cross-armv7-hardfloat-linux-gnueabi/linux-headers cross-armv7-hardfloat-linux-gnueabi/linux-headers.conf
-cross-armv7-hardfloat-linux-gnueabi/glibc cross-armv7-hardfloat-linux-gnueabi/glibc.conf
-cross-armv7-hardfloat-linux-gnueabi/gdb cross-armv7-hardfloat-linux-gnueabi/gdb.conf

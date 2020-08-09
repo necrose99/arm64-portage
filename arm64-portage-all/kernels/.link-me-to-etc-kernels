@@ -1,3 +1,0 @@
-symlink /etc/portage/kernels /etc/kernels 
-
-can push kernel configs to git along with main portage repo

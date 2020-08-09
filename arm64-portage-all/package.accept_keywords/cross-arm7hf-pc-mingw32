@@ -1,5 +1,0 @@
-cross-arm7hf-pc-mingw32/binutils arm -arm64 -~arm64
-cross-arm7hf-pc-mingw32/gcc arm -arm64 -~arm64
-cross-arm7hf-pc-mingw32/w32api arm -arm64 -~arm64
-cross-arm7hf-pc-mingw32/mingw-runtime arm -arm64 -~arm64
-cross-arm7hf-pc-mingw32/gdb arm ~arm -arm64 -~arm64

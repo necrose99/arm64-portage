@@ -1,1 +1,0 @@
-net-misc/iputils arping filecaps ipv6 ssl caps clockdiff -doc gcrypt idn nettle rarpd rdisc tftpd tracepath traceroute

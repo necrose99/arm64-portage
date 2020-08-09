@@ -1,0 +1,21 @@
+sys-fs/squashfs-tools lz4   lzma   lzo   zstd
+sys-fs/zfs python kernel-builtin rootfs
+sys-fs/zfs-kmod rootfs
+#
+sys-fs/ntfs3g acl ntfsprogs xattr ntfsdecrypt suid
+#
+sys-fs/hfsutils tk tcl
+
+sys-fs/btrfs-progs  convert python zstd  reiserfs 
+sys-fs/xfsprogs sys-fs/xfsprogs icu nls readline split-usr libedit
+sys-fs/e2fsprogs nls fuse cron
+
+sys-fs/squashfs-tools-ng lz4 lzo tools xz zstd
+
+sys-fs/udisks acl daemon elogind introspection  nls 
+### added testing/flags.
+sys-fs/udisks lvm vdo
+
+sys-fs/owfs ftdi fuse perl python tcl usb zeroconf
+
+sys-fs/dislocker ruby

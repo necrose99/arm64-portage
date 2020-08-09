@@ -1,0 +1,3 @@
+sys-block/gparted fat hfs  ntfs policykit reiserfs sudo wayland* xfs btrfs cryptsetup dmraid f2fs  mdadm reiser4 udf
+#sys-block/gparted -kde
+#sys-block/gparted jfs

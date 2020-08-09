@@ -1,0 +1,4 @@
+cross-amd64-linux-eabi/binutils cross-amd64-linux-eabi/binutils.conf
+cross-amd64-linux-eabi/gcc cross-amd64-linux-eabi/gcc.conf
+cross-amd64-linux-eabi/newlib cross-amd64-linux-eabi/newlib.conf
+cross-amd64-linux-eabi/gdb cross-amd64-linux-eabi/gdb.conf

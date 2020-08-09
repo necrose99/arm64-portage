@@ -1,3 +1,0 @@
-cross-i686-linux-gnu/binutils -multilib
-cross-i686-linux-gnu/linux-headers -selinux headers-only -multilib
-cross-i686-linux-gnu/glibc -selinux headers-only -multilib

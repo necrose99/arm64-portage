@@ -1,4 +1,0 @@
-cross-arm7hf-unknown-linux-gnueabi/binutils -multilib
-cross-arm7hf-unknown-linux-gnueabi/linux-headers -selinux headers-only -multilib
-cross-arm7hf-unknown-linux-gnueabi/glibc -selinux headers-only -multilib
-cross-arm7hf-unknown-linux-gnueabi/gcc -selinux -boundschecking -d -gcj -gtk -libffi -mudflap -objc -objc++ -objc-gc -fortran -go -cxx -openmp -sanitize -vtv -multilib

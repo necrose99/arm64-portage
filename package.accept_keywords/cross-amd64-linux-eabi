@@ -1,0 +1,4 @@
+cross-amd64-linux-eabi/binutils * -arm64 -~arm64
+cross-amd64-linux-eabi/gcc * -arm64 -~arm64
+cross-amd64-linux-eabi/newlib * -arm64 -~arm64
+cross-amd64-linux-eabi/gdb * ~* -arm64 -~arm64

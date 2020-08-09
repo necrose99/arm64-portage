@@ -1,6 +1,3 @@
-# required by app-shells/fish-2.7.1::gentoo
-# required by app-shells/fish (argument)
->=dev-libs/libpcre2-10.31 pcre32
-# required by www-client/qutebrowser-9999::gentoo
-# required by www-client/qutebrowser (argument)
->=dev-python/PyQt5-5.10.1-r1 declarative webengine
+# required by net-misc/econnman-1.1-r1::gentoo
+# required by net-misc/econnman (argument)
+>=dev-libs/efl-1.24.3 connman

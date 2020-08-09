@@ -1,0 +1,5 @@
+dev-vcs/mercurial chg tk  gpg zsh-completion
+dev-vcs/subversion  java sasl ruby
+#ctypes-python python 2 hearatage
+dev-vcs/gitolite tools
+

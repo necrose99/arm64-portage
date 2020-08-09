@@ -1,4 +1,0 @@
-cross-arm64-w64-mingw/binutils -multilib
-cross-arm64-w64-mingw/gcc -multilib
-cross-arm64-w64-mingw/mingw64-runtime -multilib
-cross-arm64-w64-mingw/gdb -multilib
