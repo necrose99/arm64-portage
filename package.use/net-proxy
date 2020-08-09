@@ -7,7 +7,7 @@ net-proxy/haproxy crypt net_ns pcre ssl threads zlib prometheus-exporter
 # Base flags. below other flags. 
 # (-51degrees) -device-atlas -doc -examples -libressl (-) -pcre-jit -pcre2 -pcre2-jit -prometheus-exporter 
 
-net-proxy/tsocks   tordns    dns  envconf  server-lookups
+net-proxy/tsocks   tordns      envconf  # (pentoo-proxys no like enabled:)dns server-lookups     envconf 
 
 net-proxy/privoxy acl fast-redirects force image-blocking ipv6 stats threads tools zlib client-tags compression editor extended-host-patterns external-filter
 snet-proxy/privoxy  fuzz graceful-termination lfs png-images selinux toggle whitelists"

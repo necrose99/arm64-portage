@@ -1,2 +1,0 @@
-This sentinel file prevents fixup-0003 from commenting out
-MAKEOPTS and EMERGE_DEFAULT_OPTS settings in /etc/portage/make.conf.

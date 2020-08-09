@@ -1,4 +1,5 @@
- dev-libs/openssl asm  rfc3779  sctp  sslv3  tls-heartbeat zlib
+ dev-libs/openssl asm  rfc3779  sctp  sslv3  tls-heartbeat zlib static-libs
+ ### flipping breaks to danbed ez if.. 
  
  dev-libs/libnfc readline usb pcsc-lite 
  dev-libs/glib  utils systemtap fam dbus mime xattr

@@ -1,7 +1,5 @@
-media-tv/kodi airplay bluray cec css goom mysql pvr rtmp upnp webserver xrandr sftp nfs java
-media-tv/kodi vaapi vdpau dvd  dbus  samba
-### force GBM ###
+media-tv/kodi -wayland system-ffmpeg udev bluetooth split-usr mysql upnp udisks rtmp systemd -samba  amd64 opengl airplay vaapi  css alsa cec xslt  webserver -mariadb python_single_target_python3_8 bluray X -libusb -test vdpau dvd dbus
+media-tv/kodi pulseaudio -gbm zeroconf -raspberry-pi caps nfs -gles upower lirc  lcms -mysql udf -python_single_target_python3_7 
 # The following REQUIRED_USE flag constraints are unsatisfied:
 #    exactly-one-of ( gbm wayland X )
  
-media-tv/kodi  wayland  -X  -gbm  gles opengl -mysql -upower -raspberry-pi libusb  mariadb -udev udf
