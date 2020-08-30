@@ -1,3 +1,134 @@
-# required by x11-terms/terminology-1.7.0-r1::gentoo
-# required by x11-terms/terminology (argument)
->=dev-libs/efl-1.24.3 connman gles2-only
+# required by x11-libs/wxGTK-3.0.4-r302::gentoo
+# required by net-ftp/filezilla-3.48.1::gentoo
+# required by filezilla (argument)
+>=net-libs/webkit-gtk-2.28.2 -wayland
+# required by virtual/lapacke-3.8::gentoo
+# required by lapacke (argument)
+>=sci-libs/lapack-3.8.0-r1 lapacke
+# required by xfce-base/libxfce4ui-4.14.1::gentoo
+# required by xfce-base/libxfce4ui (argument)
+>=xfce-base/libxfce4util-4.15.1 introspection
+# required by kde-plasma/kwin-5.19.3::gentoo
+# required by kde-plasma/plasma-desktop-5.19.3::gentoo
+# required by kde-plasma/plasma-meta-5.19.3::gentoo
+# required by /packages/kde-plasma/plasma-meta-5.19.3.tbz2 (argument)
+>=kde-frameworks/kitemmodels-5.71.0 qml
+# required by x11-wm/enlightenment-0.24.1::gentoo[wayland]
+# required by enlightenment-0.24.1.ebuild (argument)
+>=dev-libs/efl-1.24.3 wayland
+# required by app-editors/xemacs-21.5.34-r5::gentoo[motif]
+# required by app-xemacs/xemacs-base-2.46::gentoo
+>=x11-libs/motif-2.3.8-r1 xft
+# required by net-wireless/hostapd-2.9-r1::pentoo[-libressl,-internal-tls]
+# required by pentoo/pentoo-wireless-2020.2::pentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/openssl-1.1.1g -bindist
+# required by dev-python/xapp-2.0.1::gentoo
+# required by gnome-extra/cinnamon-screensaver-4.4.1::gentoo[python_single_target_python3_7]
+# required by gnome-extra/cinnamon-screensaver (argument)
+>=x11-libs/xapps-1.8.4 introspection
+# required by sys-cluster/ceph-14.2.9-r1::gentoo
+# required by net-analyzer/rrdtool-1.7.2-r1::gentoo[rados]
+# required by dev-ruby/rrdtool-bindings-1.7.2::gentoo
+>=dev-libs/leveldb-1.20 tcmalloc
+# required by net-wireless/hostapd-2.9-r1::pentoo[-libressl,-internal-tls]
+# required by pentoo/pentoo-wireless-2020.2::pentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/openssl-1.1.1g -bindist
+# required by net-wireless/hostapd-2.9-r1::pentoo[-libressl,-internal-tls]
+# required by pentoo/pentoo-wireless-2020.2::pentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/openssl-1.1.1g -bindist
+# required by dev-python/qtconsole-4.7.5::gentoo
+# required by dev-python/ipython-7.16.1::gentoo[qt5]
+# required by dev-python/ipykernel-5.3.4::gentoo[-test]
+# required by dev-python/ipyparallel-6.3.0::gentoo[-test]
+>=dev-python/QtPy-1.9.0-r2 printsupport gui
+# required by kde-apps/krfb-20.04.3::gentoo[wayland]
+# required by kde-apps/kdenetwork-meta-20.04.3::gentoo
+# required by kde-apps/kde-apps-meta-20.04.3::gentoo
+# required by kde-apps/kde-meta-20.04.3::gentoo
+# required by kde-apps/kde-meta (argument)
+>=sys-apps/xdg-desktop-portal-1.7.2 screencast
+# required by media-sound/jack2-9999::gentoo[opus]
+# required by media-video/pipewire-0.3.7::gentoo[jack]
+# required by sys-apps/xdg-desktop-portal-1.7.2::gentoo[screencast]
+# required by kde-apps/krfb-20.04.3::gentoo[wayland]
+# required by kde-apps/kdenetwork-meta-20.04.3::gentoo
+# required by kde-apps/kde-apps-meta-20.04.3::gentoo
+# required by kde-apps/kde-meta-20.04.3::gentoo
+# required by kde-apps/kde-meta (argument)
+>=media-libs/opus-1.3.1-r1 custom-modes
+# required by net-proxy/mitmproxy (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[python_targets_python3_6,pentoo-full]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[python_targets_python3_6,pentoo-full]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[python_targets_python3_6,pentoo-full]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by media-tv/kodi-19.9999::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-video/ffmpeg-4.3 dav1d
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by sys-apps/fwupd-1.4.4::gentoo
+# required by sys-apps/fwupd (argument)
+>=dev-libs/libjcat-0.1.3-r1 gpg pkcs7
+# required by net-firewall/firewalld-0.7.3-r1::gentoo[iptables,nftables]
+# required by net-firewall/firewalld (argument)
+>=net-firewall/nftables-9999 xtables
+# required by app-crypt/yubikey-manager-qt-1.1.4-r2::gentoo
+# required by pentoo/pentoo-system-2020.2-r6::pentoo[X,2fa]
+# required by pentoo/pentoo-2015.1::pentoo[pentoo]
+# required by pentoo/pentoo (argument)
+>=dev-qt/qtquickcontrols2-5.15.0 widgets
+# required by app-portage/kuroo-9999::gentoo
+# required by app-portage/kuroo (argument)
+>=kde-plasma/kde-cli-tools-5.19.4 kdesu
+# required by dev-ruby/rrdtool-bindings-1.7.2::gentoo
+>=net-analyzer/rrdtool-1.7.2-r1 -graph

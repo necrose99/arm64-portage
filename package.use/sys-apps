@@ -5,3 +5,7 @@ sys-apps/coreutils -kill
 sys-apps/coreutils aclgmp nsl xattr split-user  
 #-hostname  -multicall (-selinux) -static -test -vanilla
 sys-apps/busybox ipv6 static make-symlinks math  savedconfig  sep-usr
+
+sys-apps/hwloc  X cairo cpuid pci svg xml gl libudev netloc plugins static-libs
+
+sys-apps/lm-sensors contrib sensord static-libs

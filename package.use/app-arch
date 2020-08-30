@@ -1,3 +1,5 @@
 app-arch/brotli python
 
 app-arch/rpm acl caps dbus lua nls python zstd
+
+app-arch/engrampa caja  magic  packagekit 

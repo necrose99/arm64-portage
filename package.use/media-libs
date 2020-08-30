@@ -1,3 +1,5 @@
+media-libs/* static-libs 
+### not a fan but less rebuilds
 media-libs/libsdl aalib dga xinerama
 #
 media-libs/aalib slang x gpm

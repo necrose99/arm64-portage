@@ -1,14 +1,14 @@
-media-video/mplayer X a52 alsa bidi bluray cddb cdio dga dts dv  enca encode gsm iconv ipv6 jack joystick jpeg libass live lzo mad mng mp3 network openal opengl
+media-video/mplayer X a52 alsa bidi bluray cddb cdio dga dts dv  enca encode gsm iconv ipv6 jack joystick jpeg libass live lzo mad mng mp3 network openal opengl dav1d
 #
-media-video/mplayer speex theora  truetype unicode v4l vorbis x264 xinerama xscreensaver xv xvid samba twolame dvb vdpau radio pvr tga tremor lirc -dvd -dvdnav
+media-video/mplayer speex theora  truetype unicode v4l vorbis x264 xinerama xscreensaver xv xvid samba twolame dvb vdpau radio pvr tga tremor lirc -dvd -dvdnav modplug
 #
-media-video/mplayer aalib cdparanoia cpudetection  faac dga md5sum libcaca libmpeg2 rtmp zoran vidix yuv4mpeg sdmenu png pulseaudio rar sdl shm faad -fbcon ftp
+media-video/mplayer aalib cdparanoia cpudetection  faac dga md5sum libcaca libmpeg2 rtmp zoran vidix yuv4mpeg sdmenu png pulseaudio rar sdl shm faad -fbcon ftp srt
 #
- media-video/ffmpeg v4l2m2m-fix vaapi vpx fontconfig librtmp openh264 libaom lzma  contribxfeatures2d gdal tesseract
+ media-video/ffmpeg v4l2m2m-fix vaapi vpx fontconfig librtmp openh264 libaom lzma  contribxfeatures2d gdal   rubberband iec61883 libtesseract lv2 vappi pic ssh snappy
 
-###### ffmpeg 
-media-video/ffmpeg libdrm libcca twolame wavpack bluray open264 snappy vulkan  imagemagick vcd vidix libilbc pic dvb dxr3 gtk vtk -gtk3 digitalradio qt5 vdpau vpx ladspa bs2b vtk srt opencvapps java zvbi contribhdf contribcvv  
-media-video/ffmpeg vdpau vpx zeromq jpeg2k libxml2 flite  chromaprint cdio libsoxr modplug fdk ssh zvbi amrenc appkit dav1d vidstab zvbi kvazaar libcaca libass libaribb24   fribidi zimg gcrypt cxx lapack bs2b samba vdpau css slang vaapi
+###### ffmpeg some libs taking over functions but about as poweruser/golden as posible :-)  
+#Calculating dependencies   * waiting for lock on /var/db/.pkg.portage_lockfile ...                                                                                                           #[ebuild     U  ] media-video/ffmpeg-4.3:0/56.58.58::genpi64 [4.2.3-r1:0/56.58.58::genpi64] USE="X alsa amrenc bluray bzip2 cdio chromaprint chromium cpudetection dav1d encode fdk flite#fontconfig fribidi gcrypt gmp gnutls gpl gsm iconv iec61883* jack jpeg2k kvazaar libaom libaribb24 libass libcaca libdrm libilbc librtmp libsoxr libtesseract libv4l libxml2 lv2 lzma mmal#modplug mp3 network openal opengl openh264 openssl opus pic postproc pulseaudio rubberband samba sdl snappy speex srt ssh svg theora threads truetype twolame v4l v4l2m2m-fix vaapi vidstab #vorbis vulkan%* wavpack webp x264 x265 xvid zeromq zimg zlib (-amr) (-appkit) (-bs2b) -codec2 (-cuda) -debug -doc -frei0r -gme -hardcoded-tables (-ieee1394) (-ladspa) -libressl (-mipsdspr1)#(-mipsdspr2) (-mipsfpu) (-opencl) -oss -static-libs -test (-vdpau) (-vpx) (-zvbi) (-altivec%)" CPU_FLAGS_ARM="(neon) (thumb) (thumb2) (v6) (v8) (vfp) (vfpv3)" FFTOOLS="aviocat cws2fws#ffescape ffeval ffhash fourcc2pixfmt graph2dot ismindex pktdumper qt-faststart sidxindex trasher" VIDEO_CARDS="(-nvidia)" 0 KiB
+
 #
 #
 virtual/ffmpeg encode gsm mp3 opus speex theora truetype x264 jpeg2k -libav sdl vaapi vdpau openssl librtmp
@@ -18,3 +18,5 @@ media-video/pipewire X bluetooth ffmpeg jack pulseaudio gstreamer systemd vulkan
 
 
 media-plugins/grilo-plugins flickr gnome-online-accounts tracker youtube chromaprint daap freebox lua thetvdb  upnp-av 
+
+

@@ -1,0 +1,2 @@
+dev-lisp/clisp X berkdb dbus gdbm gtk pcre readline unicode zlib fastcgi hyperspec  svm
+dev-lisp/clisp postgres

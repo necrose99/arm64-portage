@@ -1,0 +1,11 @@
+ CC="/usr/lib/llvm/10/bin/clang"
+CXX="/usr/lib/llvm/10/bin/clang++"
+AR="/usr/lib/llvm/10/bin/llvm-ar"
+NM="/usr/lib/llvm/10/bin/llvm-nm"
+RANLIB="/usr/lib/llvm/10/bin/llvm-ranlib"
+
+COMMON_FLAGS="-march=native -O2 -pipe -flto""
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS} LDFLAGS="-Wl,-O2 -Wl,--as-needed""

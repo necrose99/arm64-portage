@@ -10,7 +10,7 @@ sys-devel/gcc cxx fortran ada nls nptl openmp pch pie sanitize ssp vtv ada lto d
 ########
 sci-mathematics/z3 isabelle 
 ######@ llvm CLANG opts 
-sys-devel/llvm gold libedit libffi ncurses xar xml z3 
+sys-devel/llvm gold libedit libffi ncurses xar xml z3 exegesis
 
 
 sys-devel/clang-runtime libcxx sanitize

@@ -6,4 +6,4 @@ net-wireless/blue_hydra ubertooth development
 net-wireless/soapysdr  bladerf hackrf rtlsdr uhd
 
 net-wireless/hostapd wpe
-
+net-wireless/blueman network nls policykit pulseaudio thunar  appindicator

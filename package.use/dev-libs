@@ -4,7 +4,7 @@
  dev-libs/libnfc readline usb pcsc-lite 
  dev-libs/glib  utils systemtap fam dbus mime xattr
  
- dev-libs/libpcre2 bzip2 jit pcre16 pcre32 static recursion-limit split-usr unicode zlib  pcre32 readline
+dev-libs/libpcre2 bzip2 jit pcre16 pcre32 static recursion-limit split-usr unicode zlib  pcre32 readline static-libs
  
 #dev-libs/efl nls lua physics tiff -hyphen -vnc scim -examples -static-libs  -pmaps  xpm -gnutls fontconfig wayland -docdev-libs
 #
@@ -23,8 +23,10 @@ dev-libs/keybinder introspection lua
 
 dev-libs/protobuf zlib  cdda dbus pulseaudio udisks box  dropbox googledrive  lastfm mms -moodbar mtp -projectm seafile skydrive
 
-dev-libs/poco 7z cppparser crypto data file2pagecompiler iodbc json mariadb mongodb net odbc pagecompiler pdf sqlite ssl util xml zip 
-dev-libs/leveldb snappy tcmalloc 
+dev-libs/poco 7z cppparser crypto data file2pagecompiler iodbc json mariadb mongodb net odbc pagecompiler pdf sqlite ssl util xml zip
+
+dev-libs/leveldb snappy tcmalloc static-libs
+
 #drags in tcmalloc/dev-util/google-perftools /sys-libs/libunwind @sys-libs/libunwind-llvm is present till fixed... F no. 
 
 dev-libs/boost bzip2 icu lzma  nls python  threads tools  zlib context mpi numpy zstd
@@ -33,3 +35,19 @@ dev-libs/nss cacet utils
 
 # selinux
 dev-libs/ustr static-libs ustr-import
+
+dev-libs/fcgi html
+
+dev-libs/cyrus-sasl berkdb gdbm kerberos mysql openldap pam sqlite ssl authdaemond static-libs urandom srp 
+dev-libs/cyrus-sasl java ldapdb  -postgres -selinux  
+
+dev-libs/libpfm static-libs
+dev-libs/totem-pl-parser archive crypt introspection quvi
+
+dev-libs/efl X drm eet elogind fontconfig gif  gstreamer lua nls pdf pulseaudio scim sound ssl svg system-lz4 tiff v4l wayland webp xpm zeroconf -systemd 
+dev-libs/efl bmp connman dds fbcon fribidi glib gnutls harfbuzz hyphen ibus ico jpeg2k json mono
+dev-libs/efl  physics pmaps postscript psd raw sdl   tga tgv tslib llvm-unwind vnc xcf xim xpresent 
+
+dev-libs/protobuf-c static-libs
+
+dev-libs/folks bluetooth eds telepathy utils  tracker

@@ -6,4 +6,7 @@ sys-libs/kpmcore::sabayon-distro
 sys-apps/iucode_tool
 sys-firmware/intel-microcode
 
-x11-base/xorg-server::redcore
+x11-base/xorg-server::redcore newer but... sbc patching ?
+>=x11-libs/gtk+-3.24.22:3::mv
+
+media-video/ffmpeg::gentoo # temp//

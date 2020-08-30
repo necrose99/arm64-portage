@@ -1,1 +1,3 @@
 net-im/telepathy-mission-control networkmanager
+
+net-im/pidgin dbus gadu gnutls groupwise gstreamer gtk meanwhile ncurses networkmanager nls perl prediction python sasl spell tk xscreensaver zeroconf eds  idn  pie  tcl  zephyr

@@ -8,3 +8,6 @@ dev-util/glade webkit
 dev-util/catalyst system-bootloader ccache
 
 dev-util/cccc mfc
+dev-util/lldb libedit lzma ncurses python
+
+dev-util/cunit ncurses static-libs

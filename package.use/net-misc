@@ -1,7 +1,7 @@
 net-misc/rsync acl iconv ipv6 xattr stunnel
 net-misc/freerdp X alsa cups ffmpeg jpeg pulseaudio test usb wayland xinerama xv
 #
-net-misc/freerdp smartcard  gstreamer -libressl openh264 -server 
+net-misc/freerdp smartcard  -debug -doc -gstreamer -libressl -openh264 -server 
 #
 net-misc/remmina  crypt cups nls zeroconf appindicator  telepathy vnc webkit 
 #
@@ -17,7 +17,8 @@ net-misc/networkmanager bluetooth connection-sharing dhclient dhcpcd -gnutls int
 # NEW: USE=gtk makes these plugins work properly with
 # newer nm-applet. Please, don't remove it and see
 # bug 3508
-net-misc/networkmanager-openvpn gtk
+# move net-misc/networkmanager-openvpn net-vpn/networkmanager-openvpn
+net-vpn/networkmanager-openvpn gtk
 net-misc/networkmanager-openswan gtk
 net-misc/networkmanager-openconnect gtk
 net-misc/networkmanager-pptp gtk
@@ -31,3 +32,5 @@ net-misc/connman bluetooth ethernet networkmanager nftables policykit tools wifi
 net-misc/curl -curl_ssl_nss curl_ssl_openssl brotli ftp gopher http2 idn imap ipv6 kerberos ldap metalink pop3 progress-meter  samba smtp ssh ssl tftp 
 
 net-misc/quiche
+
+net-misc/ntp ipv6 readline ssl threads zeroconf  caps  openntpd parse-clocks samba snmp vim-syntax

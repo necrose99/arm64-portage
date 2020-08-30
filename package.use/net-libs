@@ -13,3 +13,4 @@ net-libs/libbtbb extras wireshark-plugins
 
 net-libs/neon expat  gnutls  kerberos  nls pkcs11  ssl zlib libproxy
 
+net-libs/webkit-gtk X egl geolocation gstreamer introspection jpeg2k jumbo-build libnotify opengl seccomp spell  wayland

@@ -24,3 +24,5 @@ dev-lang/ruby ipv6 ssl threads truetype sodium ldap-sasl xmlrpc tokyocabinet
 dev-lang/ocaml ocamlopt emacs flambda latex spacetime xemacs
 #
 dev-lang/spidermonkey -test
+
+dev-lang/R X cairo icu jpeg nls openmp perl png readline tiff tk  lapack profile static-libs java

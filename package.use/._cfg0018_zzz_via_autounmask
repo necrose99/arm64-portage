@@ -1,4 +1,0 @@
-# required by app-admin/rsyslog-8.2006.0::gentoo[zeromq]
-# required by @selected
-# required by @world (argument)
->=net-libs/czmq-4.2.0 drafts

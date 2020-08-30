@@ -1,1 +1,5 @@
 gnome-base/gdm -fprint audit wayland
+
+gnome-base/nautilus previewer
+
+gnome-base/gnome-settings-daemon colord cups elogind networkmanager smartcard udev wayland  modemmanager 

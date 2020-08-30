@@ -71,12 +71,21 @@
 
 net-libs/libnftnl-9999
 net-firewall/nftables-9999
-net-misc/mosh-9999
+=net-misc/mosh-9999
 ## often dies on emerge and a WOT go-tools just works... 9999 no fun.
-
+=net-dns/dnscrypt-proxy-9999
 
 =sys-libs/libsemanage-9999 
 =sys-libs/libsepol-9999 
 =sys-libs/libselinux-9999 
 =app-admin/setools-9999 
 =sys-apps/selinux-python-9999
+=media-sound/clementine-9999
+=dev-libs/libevent-9999
+=net-dns/dnscrypt-proxy-9999:
+#hs
+dev-haskell/cabal-install-9999
+dev-haskell/cabal-9999>app-emulation/virt-manager-9999
+>app-emulation/qemu-9999
+>app-emulation/spice-protocol-9999
+>dev-db/postgresql-9999

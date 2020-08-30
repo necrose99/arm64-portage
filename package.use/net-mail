@@ -1,0 +1,1 @@
+net-mail/courier-imap berkdb gdbm gnutls ipv6 -debug fam trashquota #selinux

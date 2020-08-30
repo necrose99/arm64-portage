@@ -1,1 +1,18 @@
 mate-base/mate base extras themes bluetooth help notification
+mate-base/mate-settings-daemon X libnotify policykit pulseaudio smartcard sound rfkill
+
+mate-base/mate-control-center accountsservice appindicator
+
+mate-base/mate base extras notification themes  bluetooth help 
+# We want the MATE NetworkManager applet
+mate-base/mate-applets networkmanager
+mate-base/caja mate
+
+mate-base/mate-applets-meta appindicator sensors 
+ 
+ 
+mate-base/mate-session-manager elogind ipv6 xtrans  gnome-keyring 
+mate-base/caja introspection mate xmp
+
+
+

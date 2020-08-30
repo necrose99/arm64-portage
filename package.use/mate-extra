@@ -1,1 +1,7 @@
 mate-extra/caja-extensions upnp image-converter share
+
+mate-extra/mate-polkit  accountsservice appindicator
+
+mate-extra/caja-extensions image-converter mail open-terminal share upnp wallpaper xattr cdr  gajim pidgin 
+
+mate-extra/mate-power-manager applet elogind policykit  libsecret

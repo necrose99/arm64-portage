@@ -398,10 +398,7 @@ mail-mta/netqmail qmail-spp
 # More postfix features
 mail-mta/postfix mbox sasl
 
-mate-base/mate -notification
-# We want the MATE NetworkManager applet
-mate-base/mate-applets networkmanager
-mate-base/caja mate
+
 
 mate-extra/caja-extensions -cdr
 

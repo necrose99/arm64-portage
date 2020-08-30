@@ -1,3 +1,0 @@
-# required by sys-libs/libunwind-1.4.0::gentoo[lzma]
-# required by sys-libs/libunwind (argument)
->=app-arch/xz-utils-5.2.5 static-libs

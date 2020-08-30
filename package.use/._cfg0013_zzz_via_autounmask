@@ -1,3 +1,0 @@
-# required by sys-fs/owfs-3.2_p2-r2::gentoo[zeroconf]
-# required by sys-fs/owfs (argument)
->=net-dns/avahi-0.8-r2 mdnsresponder-compat

@@ -1,5 +1,2 @@
-app-misc/lirc X devinput gtk uinput usb audio ftdi inputlirc 
+app-misc/geoclue introspection vala zeroconf  modemmanager
 
-app-misc/freediag gui
-
-app-misc/pax-utils caps python seccomp

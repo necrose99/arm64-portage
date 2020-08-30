@@ -64,3 +64,69 @@
 >=media-libs/opus-1.3.1-r1 custom-modes
 # required by net-proxy/mitmproxy (argument)
 >=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[python_targets_python3_6,pentoo-full]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[python_targets_python3_6,pentoo-full]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[python_targets_python3_6,pentoo-full]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by media-tv/kodi-19.9999::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-video/ffmpeg-4.3 dav1d
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by pentoo/pentoo-proxies-2020.0::pentoo[pentoo-full,python_targets_python3_6]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by sys-apps/fwupd-1.4.4::gentoo
+# required by sys-apps/fwupd (argument)
+>=dev-libs/libjcat-0.1.3-r1 gpg pkcs7
+# required by net-firewall/firewalld-0.7.3-r1::gentoo[iptables,nftables]
+# required by net-firewall/firewalld (argument)
+>=net-firewall/nftables-9999 xtables
+# required by app-crypt/yubikey-manager-qt-1.1.4-r2::gentoo
+# required by pentoo/pentoo-system-2020.2-r6::pentoo[X,2fa]
+# required by pentoo/pentoo-2015.1::pentoo[pentoo]
+# required by pentoo/pentoo (argument)
+>=dev-qt/qtquickcontrols2-5.15.0 widgets
+# required by app-portage/kuroo-9999::gentoo
+# required by app-portage/kuroo (argument)
+>=kde-plasma/kde-cli-tools-5.19.4 kdesu

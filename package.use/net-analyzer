@@ -12,5 +12,5 @@ net-analyzer/rrdtool perl python tcpd  dbi -doc  lua rados rrdcgi ruby  tcl # gr
 # 
 net-analyzer/argus-clients tcpd ft geoip mysql sasl
 
-net-analyzer/net-snmp  bzip2 ipv6 perl python ssl tcpd ucd-compat zlib X   pcap netlink pci elf 
+net-analyzer/net-snmp  bzip2 ipv6 perl python ssl tcpd ucd-compat zlib X   pcap netlink pci elf lm-sensors mfd-rewrites
 
