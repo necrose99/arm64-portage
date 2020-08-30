@@ -1,7 +1,8 @@
-%################## next 
 #!/bin/sh
 #ebuildr
 # builds world binaries when posible but dose not yet merge them..  thus if an emerge went bad it wont break system and or updates will go faster. 
+### over ssh or etc the link can die added with nohup and vola'
+## nohup /usr/local/bin/ebuildr
 LIST=$(mktemp);
 
 emerge -puDN --color=n --columns --quiet=y world | awk '{print $2}' > ${LIST};
