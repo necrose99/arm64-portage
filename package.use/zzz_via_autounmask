@@ -130,3 +130,12 @@
 # required by app-portage/kuroo-9999::gentoo
 # required by app-portage/kuroo (argument)
 >=kde-plasma/kde-cli-tools-5.19.4 kdesu
+# required by dev-lang/php-7.4.9::gentoo[apache2]
+# required by dev-php/adodb-5.20.18::gentoo
+# required by net-analyzer/cacti-1.2.14::gentoo
+# required by net-analyzer/cacti (argument)
+>=www-servers/apache-2.4.46 -threads
+# required by dev-php/adodb-5.20.18::gentoo
+# required by net-analyzer/cacti-1.2.14::gentoo
+# required by net-analyzer/cacti (argument)
+>=dev-lang/php-7.4.9 threads
