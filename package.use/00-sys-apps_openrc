@@ -1,0 +1,11 @@
+*/* openrc  -systemd elogind 
+
+sys-apps/openrc 
+
+sys-auth/elogind 
+
+app-admin/openrc-settingsd
+
+sys-boot/plymouth-openrc-plugin 
+
+virtual/udev
