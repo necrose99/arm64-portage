@@ -1,0 +1,2 @@
+# Build graphical frontend for kde-frameworks/kdesu (requires X)
+kde-plasma/kde-cli-tools kdesu X
