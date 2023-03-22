@@ -2,6 +2,8 @@
 Gentoo 
 /etc/portage/ 
 
+https://github.com/necrose99/gentoo-config will soon supseede and or merge .... as a note
+
 portage configs and settings for package building.. 
 
 fork it contrib it etc.. 
